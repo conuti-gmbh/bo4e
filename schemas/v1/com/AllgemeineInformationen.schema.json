@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/AllgemeineInformationen",
+  "type": "object",
+  "properties": {
+    "info1" : {"type":  "string"},
+    "info2" : {"type":  "string"},
+    "info3" : {"type":  "string"},
+    "info4" : {"type":  "string"},
+    "info5" : {"type":  "string"}
+  }
+}

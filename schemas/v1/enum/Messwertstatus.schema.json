@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Messwertstatus",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "ABGELESEN",
+      "ERSATZWERT",
+      "VORSCHLAGSWERT",
+      "NICHT_VERWENDBAR",
+      "PROGNOSEWERT",
+      "ENERGIEMENGESUMMIERT",
+      "VOLAEUFIGERWERT",
+      "FEHLT",
+      "ANGABE_FUER_LIEFERSCHEIN"
+    ]
+  }
+}

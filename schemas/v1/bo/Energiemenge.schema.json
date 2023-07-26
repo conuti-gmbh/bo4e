@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Energiemenge",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "$ref": "../enum/BOTyp.schema.json"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "lokationsId":  {
+      "type": "string"
+    },
+    "lokationsTyp":  {
+      "$ref": "../enum/Lokationstyp.schema.json"
+    },
+    "fertigstellungsdatum":  {
+      "type": "string"
+    },
+    "startdatum":  {
+      "type": "string"
+    },
+    "enddatum":  {
+      "type": "string"
+    },
+    "bilanzierungsdatum":  {
+      "type": "string"
+    },
+    "beginndatum":  {
+      "type": "string"
+    },
+    "referenzStammdatenmeldungMsb":  {
+      "type": "string"
+    },
+    "energieverbrauch":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Verbrauch.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

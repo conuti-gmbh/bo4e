@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Auftragsstatus",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "GESCHEITERT",
+      "ERFOLGREICH",
+      "LIEFERUNG_GEPLANT",
+      "GEPLANT",
+      "ZUGESTIMMT",
+      "WIDERSPROCHEN",
+      "STOERUNGSFREI",
+      "GESTOERT",
+      "FESTGESTELLTE_STOERUNG",
+      "VERMUTETE_STOERUNG",
+      "ABGELEHNT",
+      "BEENDET",
+      "ANTWORT_DRITTER"
+    ]
+  }
+}

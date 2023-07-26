@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Steuerbetrag",
+  "type": "object",
+  "properties": {
+    "steuerkennzeichen": {
+      "type": "string"
+    },
+    "basiswert": {
+      "type": "number"
+    },
+    "steuerwert": {
+      "type": "number"
+    },
+    "waehrung": {
+      "type": "string"
+    },
+    "basiswertVorausbezahlt": {
+      "type": "number"
+    },
+    "steuerwertVorausbezahhlt": {
+      "type": "number"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Rufnummernart",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "RUF_ZENTRALE",
+      "FAX_ZENTRALE",
+      "SAMMELRUF",
+      "SAMMELFAX",
+      "ABTEILUNGRUF",
+      "ABTEILUNGFAX",
+      "RUF_DURCHWAHL",
+      "FAX_DURCHWAHL",
+      "MOBIL_NUMMER"
+    ]
+  }
+}

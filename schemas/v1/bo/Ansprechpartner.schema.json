@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Ansprechpartner",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "nachname":  {
+      "type": "string"
+    },
+    "eMailAdresse":  {
+      "type": "string"
+    },
+    "rufnummern":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Rufnummer.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

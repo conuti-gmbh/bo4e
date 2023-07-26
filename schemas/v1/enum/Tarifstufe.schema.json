@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Tarifstufe",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "TARIFSTUFE_0",
+      "TARIFSTUFE_1",
+      "TARIFSTUFE_2",
+      "TARIFSTUFE_3",
+      "TARIFSTUFE_4",
+      "TARIFSTUFE_5",
+      "TARIFSTUFE_6",
+      "TARIFSTUFE_7",
+      "TARIFSTUFE_8",
+      "TARIFSTUFE_9"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Handelsunstimmigkeitstyp",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "HANDELSRECHNUNG",
+      "LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP",
+      "LIEFERSCHEIN_GRUND_ARBEITSPREIS",
+      "LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS"
+    ]
+  }
+}

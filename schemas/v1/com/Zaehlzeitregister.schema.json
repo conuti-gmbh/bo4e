@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Zaehlzeitregister",
+  "type": "object",
+  "properties": {
+    "satz": {
+      "$ref": "../enum/AbgabeArt.schema.json"
+    },
+    "register": {
+      "type": "string"
+    },
+    "zaehlzeitDefinition": {
+      "type": "string"
+    },
+    "schwachlastfaehig":  {
+      "$ref": "../enum/Schwachlastfaehig.schema.json"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Anfrage",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "lokationsId":  {
+      "type": "string"
+    },
+    "anfragetyp":  {
+      "$ref": "../enum/Anfragetyp.schema.json"
+    },
+    "anfragereferenz":  {
+      "type": "string"
+    },
+    "allgemeineInformationen":  {
+      "type": "string"
+    },
+    "anfragekategorie":  {
+      "$ref": "../enum/Anfragekategorie.schema.json"
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

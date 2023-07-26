@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Tarifart",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "EINTARIF",
+      "ZWEITARIF",
+      "MEHRTARIF",
+      "SMART_METER",
+      "LEISTUNGSGEMESSEN"
+    ]
+  }
+}

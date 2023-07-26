@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/BankverbindungVerwendungszweck",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "BV_ZAHLUNG_NNA",
+      "BV_ZAHLUNG_MMMA",
+      "BV_ZAHLUNG_MSB_ABRECHNNUNG",
+      "BV_ZAHLUNG_ENT_SPERREN_ABRECHNUNG",
+      "BV_SONSTIGE"
+    ]
+  }
+}

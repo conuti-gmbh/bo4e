@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/BOTyp",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "ANSPRECHPARTNER",
+      "AVIS",
+      "ENERGIEMENGE",
+      "GESCHAEFTSOBJEKT",
+      "GESCHAEFTSPARTNER",
+      "MARKTLOKATION",
+      "MARKTTEILNEHMER",
+      "MESSLOKATION",
+      "ZAEHLER",
+      "KOSTEN",
+      "TARIF",
+      "PREISBLATT",
+      "PREISBLATTNETZNUTZUNG",
+      "PREISBLATTMESSUNG",
+      "PREISBLATTUMLAGEN",
+      "PREISBLATTDIENSTLEISTUNG",
+      "PREISBLATTKONZESSIONSABGABE",
+      "ZEITREIHE",
+      "LASTGANG",
+      "HANDELSUNSTIMMIGKEIT",
+      "ANFRAGE",
+      "AUFTRAG",
+      "STATUSMITTEILUNG",
+      "BERECHNUNGSFORMEL",
+      "RECHNUNG",
+      "BILANZIERUNG",
+      "NETZNUTZUNGSVERTRAG",
+      "MESSSTELLENBETRIEBSVERTRAG",
+      "ENERGIELIEFERVERTRAG",
+      "SPERRAUFTRAG",
+      "ANGEBOT",
+      "TRANCHE"
+    ]
+  }
+}

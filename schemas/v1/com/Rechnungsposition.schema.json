@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Rechnungsposition",
+  "type": "object",
+  "properties": {
+    "einzelpreis": {
+      "$ref": "../com/Preis.schema.json"
+    },
+    "lieferungBis": {
+      "type": "string"
+    },
+    "lieferungVon": {
+      "type": "string"
+    },
+    "positionsMenge": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "positionsnummer": {
+      "type": "integer"
+    },
+    "artikelnummer": {
+      "type": "string"
+    },
+    "teilsummeNetto": {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "teilsummeSteuer": {
+      "$ref": "../com/Steuerbetrag.schema.json"
+    },
+    "zeitbezogeneMenge": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "abschlag": {
+      "$ref": "../com/Abschlag.schema.json"
+    },
+    "zuschlag": {
+      "$ref": "../com/Zuschlag.schema.json"
+    },
+    "gemeinderabatt": {
+      "$ref": "../com/Gemeinderabatt.schema.json"
+    },
+    "gesamtZuAbschlagsbetrag": {
+      "type": "number"
+    }
+  }
+}

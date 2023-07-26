@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/InfoAbweichung",
+  "type": "object",
+  "properties": {
+    "abweichung1": {
+      "type": "string"
+    },
+    "abweichung2": {
+      "type": "string"
+    },
+    "abweichung3": {
+      "type": "string"
+    },
+    "abweichung4": {
+      "type": "string"
+    },
+    "abweichung5": {
+      "type": "string"
+    }
+  }
+}

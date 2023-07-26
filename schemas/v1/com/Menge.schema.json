@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Menge",
+  "type": "object",
+  "properties": {
+    "wert": {
+      "type": "number"
+    },
+    "einheit": {
+      "$ref": "../enum/Mengeneinheit.schema.json"
+    }
+  }
+}

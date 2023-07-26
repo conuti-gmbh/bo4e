@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Rechenschritt",
+  "type": "object",
+  "properties": {
+    "rechenschrittBestandteilId": {
+      "type": "integer"
+    },
+    "referenzRechenschrittId": {
+      "type": "integer"
+    },
+    "operation": {
+      "$ref": "../enum/ArithmetischeOperation.schema.json"
+    },
+    "verlustfaktorTrafo": {
+      "type": "number"
+    },
+    "verlustfaktorLeitung": {
+      "type": "number"
+    },
+    "messlokationsId": {
+      "type": "string"
+    },
+    "energieflussrichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
+    }
+  }
+}

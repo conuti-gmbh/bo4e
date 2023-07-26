@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Steuerkennzeichen",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "UST_19",
+      "UST_16",
+      "UST_7",
+      "VST_0",
+      "VST_19",
+      "VST_16",
+      "VST_7",
+      "RCV"
+    ]
+  }
+}

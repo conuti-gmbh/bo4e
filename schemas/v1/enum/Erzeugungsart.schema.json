@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Erzeugungsart",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "EEG",
+      "KWK",
+      "EEG_DV",
+      "KWK_DV",
+      "WIND",
+      "SOLAR",
+      "KERNKRAFT",
+      "WASSER",
+      "GEOTHERMIE",
+      "BIOMASSE",
+      "KOHLE",
+      "GAS",
+      "SONSTIGE",
+      "SONSTIGE_EEG"
+    ]
+  }
+}

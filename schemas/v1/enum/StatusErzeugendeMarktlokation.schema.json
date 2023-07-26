@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/StatusErzeugendeMarktlokation",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "EINSPEISEVERGUETUNG_PARAGRAPH_37",
+      "GEFOERDERTE_DIREKTVERMARKTUNG",
+      "SONSTIGE_DIREKTVERMARKTUNG",
+      "VERMARKTUNG_OHNE_GESETZL_VERGUETUNG",
+      "KWKG_VERGUETUNG",
+      "EINSPEISEVERGUETUNG_PARAGRAPH_38_AUSFALLVERGUETUNG"
+    ]
+  }
+}

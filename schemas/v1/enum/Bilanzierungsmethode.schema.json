@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Bilanzierungsmethode",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "RLM",
+      "SLP",
+      "TLP_GEMEINSAM",
+      "TLP_GETRENNT",
+      "PAUSCHAL",
+      "IMS"
+    ]
+  }
+}

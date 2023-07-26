@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Zeiteinheit",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "SEKUNDE",
+      "MINUTE",
+      "STUNDE",
+      "VIERTEL_STUNDE",
+      "TAG",
+      "WOCHE",
+      "MONAT",
+      "QUARTAL",
+      "HALBJAHR",
+      "JAHR"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+## antwortstatusCodeliste Type
+
+`string`

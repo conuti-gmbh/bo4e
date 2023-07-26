@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Vertrag",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "sparte":  {
+      "$ref": "../enum/Sparte.schema.json"
+    },
+    "vertragsart":  {
+      "type": "string"
+    },
+    "vertragsnummer":  {
+      "type": "string"
+    },
+    "beschreibung":  {
+      "type": "string"
+    },
+    "lokationsId":  {
+      "type": "string"
+    },
+    "lokationsTyp":  {
+      "$ref": "../enum/Lokationstyp.schema.json"
+    },
+    "vertragsstatus":  {
+      "$ref": "../enum/Vertragstatus.schema.json"
+    },
+    "vertragsende":  {
+      "type": "string"
+    },
+    "gemeinderabatt":  {
+      "type": "integer"
+    },
+    "vertragskonditionen":  {
+      "$ref": "../com/Vertragskonditionen.schema.json"
+    },
+    "korrespondenzpartner":  {
+      "$ref": "Geschaeftspartner.schema.json"
+    },
+    "abrechnungUeberNna":  {
+      "type": "boolean"
+    },
+    "vertragspartner1":  {
+      "type": "array",
+      "items": {
+        "$ref": "Geschaeftspartner.schema.json"
+      }
+    },
+    "vertragspartner2":  {
+      "type": "array",
+      "items": {
+        "$ref": "Geschaeftspartner.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

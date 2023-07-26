@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Fallgruppenzuordnung",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "GABI_RLMmT",
+      "GABI_RLMoT",
+      "GABI_RLMNEV"
+    ]
+  }
+}

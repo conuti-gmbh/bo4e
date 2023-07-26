@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Preisstaffel",
+  "type": "object",
+  "properties": {
+    "einheitspreis": {
+      "type": "number"
+    },
+    "staffelgrenzeVon": {
+      "type": "number"
+    },
+    "staffelgrenzeBis": {
+      "type": "number"
+    },
+    "sigmoidparameter": {
+      "$ref": "../com/Sigmoidparameter.schema.json"
+    }
+  }
+}

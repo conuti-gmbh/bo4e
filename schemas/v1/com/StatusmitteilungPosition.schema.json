@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition",
+  "type": "object",
+  "properties": {
+    "positionsnummer": {
+      "type": "integer"
+    },
+    "bearbeitungsdatum": {
+      "type": "string"
+    },
+    "verwendungAb": {
+      "type": "string"
+    },
+    "verwendungBis": {
+      "type": "string"
+    },
+    "enddatum": {
+      "type": "string"
+    },
+    "auftragsstatus": {
+      "$ref": "../enum/Auftragsstatus.schema.json"
+    },
+    "statusanlass": {
+      "$ref": "../enum/Statusanlass.schema.json"
+    },
+    "antwortstatus": {
+      "type": "string"
+    },
+    "fehlerbeschreibung": {
+      "$ref": "../com/Fehlerbeschreibung.schema.json"
+    },
+    "begruendung": {
+      "$ref": "../com/Begruendung.schema.json"
+    },
+    "lokationsId": {
+      "type": "string"
+    },
+    "referenzMelo": {
+      "type": "string"
+    },
+    "allgemeineInformationen": {
+      "$ref": "../com/AllgemeineInformationen.schema.json"
+    }
+  }
+}

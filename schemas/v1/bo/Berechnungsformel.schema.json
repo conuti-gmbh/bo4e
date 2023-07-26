@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Berechnungsformel",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "beginndatum":  {
+      "type": "string"
+    },
+    "notwendigkeit":  {
+      "$ref": "../enum/BerechnungsformelNotwendigkeit.schema.json"
+    },
+    "lieferrichtung":  {
+      "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "rechenschrittId":  {
+      "type": "integer"
+    },
+    "rechenschritt":  {
+      "$ref": "../com/Rechenschritt.schema.json"
+    },
+    "rechenschritte":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Rechenschritt.schema.json"
+      }
+    },
+    "verwendungszweck":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Verwendungszweck.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

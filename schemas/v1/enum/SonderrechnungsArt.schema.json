@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/SonderrechnungsArt",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "KONZESSIONSABGABE_TESTAT",
+      "INDIVIDUELL_ATYPISCH",
+      "INDIVIDUELL_SINGULAER",
+      "KWKG_UMLAGE",
+      "OFFSHORE_UMLAGE",
+      "P19_STROM_NEV_UMLAGE",
+      "P18_ABLAV",
+      "KONZESSIONSABGABE_WECHSEL_RLM"
+    ]
+  }
+}

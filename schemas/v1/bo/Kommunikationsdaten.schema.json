@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Kommunikationsdaten",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "gueltigkeit":  {
+      "type": "string"
+    },
+    "marktteilnehmer":  {
+      "$ref": "../bo/Marktteilnehmer.schema.json"
+    },
+    "kommunikationsangaben":  {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Marktteilnehmer.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

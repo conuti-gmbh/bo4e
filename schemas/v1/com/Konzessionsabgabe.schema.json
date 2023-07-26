@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Konzessionsabgabe",
+  "type": "object",
+  "properties": {
+    "satz": {
+      "$ref": "../enum/AbgabeArt.schema.json"
+    },
+    "kosten": {
+      "type": "number",
+      "format": "float"
+    },
+    "kategorie": {
+      "type": "string"
+    }
+  }
+}

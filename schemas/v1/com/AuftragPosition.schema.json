@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/AuftragPosition",
+  "type": "object",
+  "properties": {
+    "positionsnummer": {
+      "type": "integer"
+    },
+    "positionsnummerAngebot": {
+      "type": "string"
+    },
+    "energieerfassung": {
+      "$ref": "../enum/Energieerfassung.schema.json"
+    },
+    "artikelnummer": {
+      "$ref": "../enum/BDEWArtikelnummer.schema.json"
+    },
+    "positionsbetrag": {
+      "type": "string"
+    },
+    "startdatum": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "enddatum": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "istBestand": {
+      "type": "string"
+    },
+    "obiskennzahl": {
+      "type": "string"
+    },
+    "anfragegrund": {
+      "$ref": "../enum/Anfragegrund.schema.json"
+    },
+    "allgemeineInformationen": {
+      "$ref": "../com/AllgemeineInformationen.schema.json"
+    },
+    "infoAbweichung": {
+      "$ref": "../com/InfoAbweichung.schema.json"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Handelsunstimmigkeit",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "nummer":  {
+      "type": "string"
+    },
+    "typ":  {
+      "$ref": "../enum/Handelsunstimmigkeitstyp.schema.json"
+    },
+    "begruendung":  {
+      "$ref": "../com/Handelsunstimmungkeitsbegruendung.schema.json"
+    },
+    "zuZahlen":  {
+      "$ref": "../com/Betrag.schema.json"
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

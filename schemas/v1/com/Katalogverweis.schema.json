@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Katalogverweis",
+  "type": "object",
+  "properties": {
+    "katalognummer": {
+      "type": "string"
+    },
+    "zeilennummer": {
+      "type": "string"
+    },
+    "versionsnummer": {
+      "type": "string"
+    }
+  }
+}

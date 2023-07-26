@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Leistungstyp",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "ARBEITSPREIS_WIRKARBEIT",
+      "LEISTUNGSPREIS_WIRKLEISTUNG",
+      "ARBEITSPREIS_BLINDARBEIT_IND",
+      "ARBEITSPREIS_BLINDARBEIT_KAP",
+      "GRUNDPREIS",
+      "MEHRMINDERMENGE",
+      "MESSSTELLENBETRIEB",
+      "MESSDIENSTLEISTUNG",
+      "MESSDIENSTLEISTUNG_INKL_MESSUNG",
+      "ABRECHNUNG",
+      "KONZESSIONS_ABGABE",
+      "KWK_UMLAGE",
+      "OFFSHORE_UMLAGE",
+      "ABLAV_UMLAGE",
+      "REGELENERGIE_UMLAGE",
+      "BILANZIERUNG_UMLAGE",
+      "AUSLESUNG_ZUSAETZLICH",
+      "ABLESUNG_ZUSAETZLICH",
+      "ABRECHNUNG_ZUSAETZLICH",
+      "SPERRUNG",
+      "ENTSPERRUNG",
+      "MAHNKOSTEN",
+      "INKASSOKOSTEN"
+    ]
+  }
+}

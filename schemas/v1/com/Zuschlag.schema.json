@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Zuschlag",
+  "type": "object",
+  "properties": {
+    "typ": {
+      "$ref": "../enum/ZuschlagTyp.schema.json"
+    },
+    "prozent": {
+      "type": "number"
+    }
+  },
+  "required": ["typ", "prozent"]
+}

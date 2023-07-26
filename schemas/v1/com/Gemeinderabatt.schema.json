@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/com/Gemeinderabatt",
+  "type": "object",
+  "properties": {
+    "wert": {
+      "type": "number"
+    },
+    "einheit": {
+      "type": "string"
+    },
+    "typ": {
+      "type": "string"
+    },
+    "bemessungsgrundlage": {
+      "type": "number"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Mengeneinheit",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "enum": [
+      "W",
+      "WH",
+      "KW",
+      "KWH",
+      "KVARH",
+      "MW",
+      "MWH",
+      "STUECK",
+      "KUBIKMETER",
+      "STUNDE",
+      "TAG",
+      "MONAT",
+      "JAHR",
+      "PROZENT",
+      "ANZAHL",
+      "VAR",
+      "KVAR",
+      "VARH",
+      "KWHK"
+    ]
+  }
+}
