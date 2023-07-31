@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                           |
-| :-------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------- |
-| [wert](#wert)         | `number` | Optional | cannot be null | [Untitled schema](betrag-properties-wert.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/wert")         |
-| [waehrung](#waehrung) | `string` | Optional | cannot be null | [Untitled schema](betrag-properties-waehrung.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/waehrung") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                        |
+| :-------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [wert](#wert)         | `number` | Optional | cannot be null | [Untitled schema](betrag-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/wert")         |
+| [waehrung](#waehrung) | `string` | Optional | cannot be null | [Untitled schema](betrag-properties-waehrung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/waehrung") |
 
 ## wert
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag-properties-wert.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/wert")
+*   defined in: [Untitled schema](betrag-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/wert")
 
 ### wert Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag-properties-waehrung.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/waehrung")
+*   defined in: [Untitled schema](betrag-properties-waehrung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/waehrung")
 
 ### waehrung Type
 

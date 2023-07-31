@@ -4,15 +4,15 @@
 
 # Untitled object in undefined Properties
 
-| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                     |
-| :---------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [geraetetyp](#geraetetyp)                       | `array`  | Optional | cannot be null | [Untitled schema](geraetetyp.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetetyp#/properties/geraetetyp")                                    |
-| [bezeichnung](#bezeichnung)                     | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-bezeichnung.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/bezeichnung")                     |
-| [geraetenummer](#geraetenummer)                 | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-geraetenummer.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/geraetenummer")                 |
-| [geraetereferenz](#geraetereferenz)             | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-geraetereferenz.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/geraetereferenz")             |
-| [geraeteeigenschaften](#geraeteeigenschaften)   | `object` | Optional | cannot be null | [Untitled schema](geraeteeigenschaften.md "https://conuti.de/bo4e/schemas/v1/com/Geraeteeigenschaften#/properties/geraeteeigenschaften")       |
-| [volumenerfassung](#volumenerfassung)           | `array`  | Optional | cannot be null | [Untitled schema](volumenerfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Volumenerfassung#/properties/volumenerfassung")                  |
-| [weitereGeraetenummern](#weiteregeraetenummern) | `array`  | Optional | cannot be null | [Untitled schema](geraet-properties-weiteregeraetenummern.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/weitereGeraetenummern") |
+| Property                                        | Type     | Required | Nullable       | Defined by                                                                                                                                                                                  |
+| :---------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [geraetetyp](#geraetetyp)                       | `array`  | Optional | cannot be null | [Untitled schema](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")                                    |
+| [bezeichnung](#bezeichnung)                     | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/bezeichnung")                     |
+| [geraetenummer](#geraetenummer)                 | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-geraetenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/geraetenummer")                 |
+| [geraetereferenz](#geraetereferenz)             | `string` | Optional | cannot be null | [Untitled schema](geraet-properties-geraetereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/geraetereferenz")             |
+| [geraeteeigenschaften](#geraeteeigenschaften)   | `object` | Optional | cannot be null | [Untitled schema](geraeteeigenschaften.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/geraeteeigenschaften")       |
+| [volumenerfassung](#volumenerfassung)           | `array`  | Optional | cannot be null | [Untitled schema](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                  |
+| [weitereGeraetenummern](#weiteregeraetenummern) | `array`  | Optional | cannot be null | [Untitled schema](geraet-properties-weiteregeraetenummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern") |
 
 ## geraetetyp
 
@@ -26,7 +26,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraetetyp.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetetyp#/properties/geraetetyp")
+*   defined in: [Untitled schema](geraetetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetetyp.schema.json#/properties/geraetetyp")
 
 ### geraetetyp Type
 
@@ -44,7 +44,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraet-properties-bezeichnung.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/bezeichnung")
+*   defined in: [Untitled schema](geraet-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -62,7 +62,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraet-properties-geraetenummer.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/geraetenummer")
+*   defined in: [Untitled schema](geraet-properties-geraetenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/geraetenummer")
 
 ### geraetenummer Type
 
@@ -80,7 +80,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraet-properties-geraetereferenz.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/geraetereferenz")
+*   defined in: [Untitled schema](geraet-properties-geraetereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/geraetereferenz")
 
 ### geraetereferenz Type
 
@@ -98,7 +98,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraeteeigenschaften.md "https://conuti.de/bo4e/schemas/v1/com/Geraeteeigenschaften#/properties/geraeteeigenschaften")
+*   defined in: [Untitled schema](geraeteeigenschaften.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraeteeigenschaften.schema.json#/properties/geraeteeigenschaften")
 
 ### geraeteeigenschaften Type
 
@@ -116,7 +116,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](volumenerfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Volumenerfassung#/properties/volumenerfassung")
+*   defined in: [Untitled schema](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")
 
 ### volumenerfassung Type
 
@@ -134,7 +134,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraet-properties-weiteregeraetenummern.md "https://conuti.de/bo4e/schemas/v1/com/Geraet#/properties/weitereGeraetenummern")
+*   defined in: [Untitled schema](geraet-properties-weiteregeraetenummern.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Geraet.schema.json#/properties/weitereGeraetenummern")
 
 ### weitereGeraetenummern Type
 

@@ -1,3 +1,0 @@
-## antwortstatusCodeliste Type
-
-`string`

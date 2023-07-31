@@ -4,15 +4,15 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                         |
-| :------------------------------------------------------ | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [anfrageSubreferenz](#anfragesubreferenz)               | `string` | Optional | cannot be null | [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/anfrageSubreferenz")               |
-| [gesamtmengeangebotsteil](#gesamtmengeangebotsteil)     | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/gesamtmengeangebotsteil")                                                      |
-| [gesamtkostenangebotsteil](#gesamtkostenangebotsteil)   | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/gesamtkostenangebotsteil")                                                   |
-| [lieferzeitraum](#lieferzeitraum)                       | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://conuti.de/bo4e/schemas/v1/com/Zeitraum#/properties/lieferzeitraum")                                                         |
-| [verweisKatalognummer](#verweiskatalognummer)           | `object` | Optional | cannot be null | [Untitled schema](katalogverweis.md "https://conuti.de/bo4e/schemas/v1/com/Katalogverweis#/properties/verweisKatalognummer")                                       |
-| [lieferstellenangebotsteil](#lieferstellenangebotsteil) | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/lieferstellenangebotsteil") |
-| [positionen](#positionen)                               | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-positionen.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/positionen")                               |
+| Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                      |
+| :------------------------------------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [anfrageSubreferenz](#anfragesubreferenz)               | `string` | Optional | cannot be null | [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")               |
+| [gesamtmengeangebotsteil](#gesamtmengeangebotsteil)     | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")                                                      |
+| [gesamtkostenangebotsteil](#gesamtkostenangebotsteil)   | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")                                                   |
+| [lieferzeitraum](#lieferzeitraum)                       | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")                                                         |
+| [verweisKatalognummer](#verweiskatalognummer)           | `object` | Optional | cannot be null | [Untitled schema](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")                                       |
+| [lieferstellenangebotsteil](#lieferstellenangebotsteil) | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil") |
+| [positionen](#positionen)                               | `array`  | Optional | cannot be null | [Untitled schema](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")                               |
 
 ## anfrageSubreferenz
 
@@ -26,7 +26,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/anfrageSubreferenz")
+*   defined in: [Untitled schema](angebotsteil-properties-anfragesubreferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/anfrageSubreferenz")
 
 ### anfrageSubreferenz Type
 
@@ -44,7 +44,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/gesamtmengeangebotsteil")
+*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/gesamtmengeangebotsteil")
 
 ### gesamtmengeangebotsteil Type
 
@@ -62,7 +62,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/gesamtkostenangebotsteil")
+*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/gesamtkostenangebotsteil")
 
 ### gesamtkostenangebotsteil Type
 
@@ -80,7 +80,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zeitraum.md "https://conuti.de/bo4e/schemas/v1/com/Zeitraum#/properties/lieferzeitraum")
+*   defined in: [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/lieferzeitraum")
 
 ### lieferzeitraum Type
 
@@ -98,7 +98,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katalogverweis.md "https://conuti.de/bo4e/schemas/v1/com/Katalogverweis#/properties/verweisKatalognummer")
+*   defined in: [Untitled schema](katalogverweis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katalogverweis.schema.json#/properties/verweisKatalognummer")
 
 ### verweisKatalognummer Type
 
@@ -116,7 +116,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/lieferstellenangebotsteil")
+*   defined in: [Untitled schema](angebotsteil-properties-lieferstellenangebotsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/lieferstellenangebotsteil")
 
 ### lieferstellenangebotsteil Type
 
@@ -134,7 +134,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsteil-properties-positionen.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsteil#/properties/positionen")
+*   defined in: [Untitled schema](angebotsteil-properties-positionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsteil.schema.json#/properties/positionen")
 
 ### positionen Type
 

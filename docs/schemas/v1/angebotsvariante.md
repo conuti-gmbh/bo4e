@@ -4,15 +4,15 @@
 
 # Untitled object in undefined Properties
 
-| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                       |
-| :-------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [angebotsstatus](#angebotsstatus) | `array`  | Optional | cannot be null | [Untitled schema](angebotsstatus.md "https://conuti.de/bo4e/schemas/v1/enum/Angebotsstatus#/properties/angebotsstatus")                          |
-| [beschreibung](#beschreibung)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-beschreibung.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/beschreibung") |
-| [erstelldatum](#erstelldatum)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-erstelldatum.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/erstelldatum") |
-| [bindefrist](#bindefrist)         | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-bindefrist.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/bindefrist")     |
-| [gesamtmenge](#gesamtmenge)       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/gesamtmenge")                                                |
-| [gesamtkosten](#gesamtkosten)     | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/gesamtkosten")                                             |
-| [teile](#teile)                   | `array`  | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-teile.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/teile")               |
+| Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                    |
+| :-------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [angebotsstatus](#angebotsstatus) | `array`  | Optional | cannot be null | [Untitled schema](angebotsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Angebotsstatus.schema.json#/properties/angebotsstatus")                          |
+| [beschreibung](#beschreibung)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/beschreibung") |
+| [erstelldatum](#erstelldatum)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-erstelldatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/erstelldatum") |
+| [bindefrist](#bindefrist)         | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/bindefrist")     |
+| [gesamtmenge](#gesamtmenge)       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/gesamtmenge")                                                |
+| [gesamtkosten](#gesamtkosten)     | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/gesamtkosten")                                             |
+| [teile](#teile)                   | `array`  | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-teile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile")               |
 
 ## angebotsstatus
 
@@ -26,7 +26,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsstatus.md "https://conuti.de/bo4e/schemas/v1/enum/Angebotsstatus#/properties/angebotsstatus")
+*   defined in: [Untitled schema](angebotsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Angebotsstatus.schema.json#/properties/angebotsstatus")
 
 ### angebotsstatus Type
 
@@ -44,7 +44,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsvariante-properties-beschreibung.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/beschreibung")
+*   defined in: [Untitled schema](angebotsvariante-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/beschreibung")
 
 ### beschreibung Type
 
@@ -62,7 +62,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsvariante-properties-erstelldatum.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/erstelldatum")
+*   defined in: [Untitled schema](angebotsvariante-properties-erstelldatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/erstelldatum")
 
 ### erstelldatum Type
 
@@ -84,7 +84,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsvariante-properties-bindefrist.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/bindefrist")
+*   defined in: [Untitled schema](angebotsvariante-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/bindefrist")
 
 ### bindefrist Type
 
@@ -106,7 +106,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/gesamtmenge")
+*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/gesamtmenge")
 
 ### gesamtmenge Type
 
@@ -124,7 +124,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/gesamtkosten")
+*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/gesamtkosten")
 
 ### gesamtkosten Type
 
@@ -142,7 +142,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsvariante-properties-teile.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsvariante#/properties/teile")
+*   defined in: [Untitled schema](angebotsvariante-properties-teile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/teile")
 
 ### teile Type
 

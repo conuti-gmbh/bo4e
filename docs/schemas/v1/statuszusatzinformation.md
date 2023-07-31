@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property          | Type    | Required | Nullable       | Defined by                                                                                         |
-| :---------------- | :------ | :------- | :------------- | :------------------------------------------------------------------------------------------------- |
-| [art](#art)       | `array` | Optional | cannot be null | [Untitled schema](statusart.md "https://conuti.de/bo4e/schemas/v1/enum/StatusArt#/properties/art") |
-| [status](#status) | `array` | Optional | cannot be null | [Untitled schema](status.md "https://conuti.de/bo4e/schemas/v1/enum/Status#/properties/status")    |
+| Property          | Type    | Required | Nullable       | Defined by                                                                                                                                      |
+| :---------------- | :------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [art](#art)       | `array` | Optional | cannot be null | [Untitled schema](statusart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusArt.schema.json#/properties/art") |
+| [status](#status) | `array` | Optional | cannot be null | [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Status.schema.json#/properties/status")    |
 
 ## art
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusart.md "https://conuti.de/bo4e/schemas/v1/enum/StatusArt#/properties/art")
+*   defined in: [Untitled schema](statusart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusArt.schema.json#/properties/art")
 
 ### art Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](status.md "https://conuti.de/bo4e/schemas/v1/enum/Status#/properties/status")
+*   defined in: [Untitled schema](status.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Status.schema.json#/properties/status")
 
 ### status Type
 

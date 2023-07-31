@@ -4,20 +4,20 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                    | Type     | Required | Nullable       | Defined by                                                                                                                           |
-| :---------------------------------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                             | `string` | Required | cannot be null | [Untitled schema](angebot-properties-botyp.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/boTyp")                      |
-| [versionStruktur](#versionstruktur)                         | `string` | Required | cannot be null | [Untitled schema](angebot-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/versionStruktur")  |
-| [angebotsnummer](#angebotsnummer)                           | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/angebotsnummer")    |
-| [anfragereferenz](#anfragereferenz)                         | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-anfragereferenz.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/anfragereferenz")  |
-| [angebotsdatum](#angebotsdatum)                             | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsdatum.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/angebotsdatum")      |
-| [sparte](#sparte)                                           | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://conuti.de/bo4e/schemas/v1/enum/Sparte#/properties/sparte")                                      |
-| [bindefrist](#bindefrist)                                   | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-bindefrist.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/bindefrist")            |
-| [angebotgeber](#angebotgeber)                               | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/angebotgeber")            |
-| [angebotnehmer](#angebotnehmer)                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/angebotnehmer")           |
-| [unterzeichnerAngebotsnehmer](#unterzeichnerangebotsnehmer) | `object` | Optional | cannot be null | [Untitled schema](ansprechpartner.md "https://conuti.de/bo4e/schemas/v1/bo/Ansprechpartner#/properties/unterzeichnerAngebotsnehmer") |
-| [unterzeichnerAngebotsgeber](#unterzeichnerangebotsgeber)   | `object` | Optional | cannot be null | [Untitled schema](ansprechpartner.md "https://conuti.de/bo4e/schemas/v1/bo/Ansprechpartner#/properties/unterzeichnerAngebotsgeber")  |
-| [varianten](#varianten)                                     | `array`  | Optional | cannot be null | [Untitled schema](angebot-properties-varianten.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/varianten")              |
+| Property                                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                        |
+| :---------------------------------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `string` | Required | cannot be null | [Untitled schema](angebot-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/boTyp")                      |
+| [versionStruktur](#versionstruktur)                         | `string` | Required | cannot be null | [Untitled schema](angebot-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/versionStruktur")  |
+| [angebotsnummer](#angebotsnummer)                           | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsnummer")    |
+| [anfragereferenz](#anfragereferenz)                         | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/anfragereferenz")  |
+| [angebotsdatum](#angebotsdatum)                             | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsdatum")      |
+| [sparte](#sparte)                                           | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                      |
+| [bindefrist](#bindefrist)                                   | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/bindefrist")            |
+| [angebotgeber](#angebotgeber)                               | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotgeber")            |
+| [angebotnehmer](#angebotnehmer)                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotnehmer")           |
+| [unterzeichnerAngebotsnehmer](#unterzeichnerangebotsnehmer) | `object` | Optional | cannot be null | [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Ansprechpartner.schema.json#/properties/unterzeichnerAngebotsnehmer") |
+| [unterzeichnerAngebotsgeber](#unterzeichnerangebotsgeber)   | `object` | Optional | cannot be null | [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Ansprechpartner.schema.json#/properties/unterzeichnerAngebotsgeber")  |
+| [varianten](#varianten)                                     | `array`  | Optional | cannot be null | [Untitled schema](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/varianten")              |
 
 ## boTyp
 
@@ -31,7 +31,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-botyp.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/boTyp")
+*   defined in: [Untitled schema](angebot-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -49,7 +49,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/versionStruktur")
+*   defined in: [Untitled schema](angebot-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -67,7 +67,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-angebotsnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/angebotsnummer")
+*   defined in: [Untitled schema](angebot-properties-angebotsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsnummer")
 
 ### angebotsnummer Type
 
@@ -85,7 +85,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-anfragereferenz.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/anfragereferenz")
+*   defined in: [Untitled schema](angebot-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/anfragereferenz")
 
 ### anfragereferenz Type
 
@@ -103,7 +103,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-angebotsdatum.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/angebotsdatum")
+*   defined in: [Untitled schema](angebot-properties-angebotsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsdatum")
 
 ### angebotsdatum Type
 
@@ -125,7 +125,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://conuti.de/bo4e/schemas/v1/enum/Sparte#/properties/sparte")
+*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
@@ -143,7 +143,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-bindefrist.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/bindefrist")
+*   defined in: [Untitled schema](angebot-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/bindefrist")
 
 ### bindefrist Type
 
@@ -165,7 +165,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/angebotgeber")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotgeber")
 
 ### angebotgeber Type
 
@@ -183,7 +183,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/angebotnehmer")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotnehmer")
 
 ### angebotnehmer Type
 
@@ -201,7 +201,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner.md "https://conuti.de/bo4e/schemas/v1/bo/Ansprechpartner#/properties/unterzeichnerAngebotsnehmer")
+*   defined in: [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Ansprechpartner.schema.json#/properties/unterzeichnerAngebotsnehmer")
 
 ### unterzeichnerAngebotsnehmer Type
 
@@ -219,7 +219,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](ansprechpartner.md "https://conuti.de/bo4e/schemas/v1/bo/Ansprechpartner#/properties/unterzeichnerAngebotsgeber")
+*   defined in: [Untitled schema](ansprechpartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Ansprechpartner.schema.json#/properties/unterzeichnerAngebotsgeber")
 
 ### unterzeichnerAngebotsgeber Type
 
@@ -237,7 +237,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebot-properties-varianten.md "https://conuti.de/bo4e/schemas/v1/bo/Angebot#/properties/varianten")
+*   defined in: [Untitled schema](angebot-properties-varianten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/varianten")
 
 ### varianten Type
 
