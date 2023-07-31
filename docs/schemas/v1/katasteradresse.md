@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                           | Type     | Required | Nullable       | Defined by                                                                                                                                         |
-| :--------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [gemarkung\_flur](#gemarkung_flur) | `string` | Optional | cannot be null | [Untitled schema](katasteradresse-properties-gemarkung_flur.md "https://conuti.de/bo4e/schemas/v1/com/Katasteradresse#/properties/gemarkung_flur") |
-| [flurstueck](#flurstueck)          | `string` | Optional | cannot be null | [Untitled schema](katasteradresse-properties-flurstueck.md "https://conuti.de/bo4e/schemas/v1/com/Katasteradresse#/properties/flurstueck")         |
+| Property                           | Type     | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :--------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [gemarkung\_flur](#gemarkung_flur) | `string` | Optional | cannot be null | [Untitled schema](katasteradresse-properties-gemarkung_flur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/gemarkung_flur") |
+| [flurstueck](#flurstueck)          | `string` | Optional | cannot be null | [Untitled schema](katasteradresse-properties-flurstueck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/flurstueck")         |
 
 ## gemarkung\_flur
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katasteradresse-properties-gemarkung_flur.md "https://conuti.de/bo4e/schemas/v1/com/Katasteradresse#/properties/gemarkung_flur")
+*   defined in: [Untitled schema](katasteradresse-properties-gemarkung_flur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/gemarkung_flur")
 
 ### gemarkung\_flur Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](katasteradresse-properties-flurstueck.md "https://conuti.de/bo4e/schemas/v1/com/Katasteradresse#/properties/flurstueck")
+*   defined in: [Untitled schema](katasteradresse-properties-flurstueck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/flurstueck")
 
 ### flurstueck Type
 

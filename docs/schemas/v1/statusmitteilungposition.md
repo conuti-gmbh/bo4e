@@ -4,21 +4,21 @@
 
 # Untitled object in undefined Properties
 
-| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                 |
-| :-------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-positionsnummer.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/positionsnummer")     |
-| [bearbeitungsdatum](#bearbeitungsdatum)             | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-bearbeitungsdatum.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/bearbeitungsdatum") |
-| [verwendungAb](#verwendungab)                       | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungab.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/verwendungAb")           |
-| [verwendungBis](#verwendungbis)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungbis.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/verwendungBis")         |
-| [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-enddatum.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/enddatum")                   |
-| [auftragsstatus](#auftragsstatus)                   | `array`   | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://conuti.de/bo4e/schemas/v1/enum/Auftragsstatus#/properties/auftragsstatus")                                                    |
-| [statusanlass](#statusanlass)                       | `array`   | Optional | cannot be null | [Untitled schema](statusanlass.md "https://conuti.de/bo4e/schemas/v1/enum/Statusanlass#/properties/statusanlass")                                                          |
-| [antwortstatus](#antwortstatus)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-antwortstatus.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/antwortstatus")         |
-| [fehlerbeschreibung](#fehlerbeschreibung)           | `object`  | Optional | cannot be null | [Untitled schema](fehlerbeschreibung.md "https://conuti.de/bo4e/schemas/v1/com/Fehlerbeschreibung#/properties/fehlerbeschreibung")                                         |
-| [begruendung](#begruendung)                         | `object`  | Optional | cannot be null | [Untitled schema](begruendung.md "https://conuti.de/bo4e/schemas/v1/com/Begruendung#/properties/begruendung")                                                              |
-| [lokationsId](#lokationsid)                         | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-lokationsid.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/lokationsId")             |
-| [referenzMelo](#referenzmelo)                       | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-referenzmelo.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/referenzMelo")           |
-| [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [Untitled schema](allgemeineinformationen.md "https://conuti.de/bo4e/schemas/v1/com/AllgemeineInformationen#/properties/allgemeineInformationen")                          |
+| Property                                            | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                              |
+| :-------------------------------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [positionsnummer](#positionsnummer)                 | `integer` | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/positionsnummer")     |
+| [bearbeitungsdatum](#bearbeitungsdatum)             | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/bearbeitungsdatum") |
+| [verwendungAb](#verwendungab)                       | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungAb")           |
+| [verwendungBis](#verwendungbis)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungBis")         |
+| [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/enddatum")                   |
+| [auftragsstatus](#auftragsstatus)                   | `array`   | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                                                    |
+| [statusanlass](#statusanlass)                       | `array`   | Optional | cannot be null | [Untitled schema](statusanlass.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Statusanlass.schema.json#/properties/statusanlass")                                                          |
+| [antwortstatus](#antwortstatus)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-antwortstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/antwortstatus")         |
+| [fehlerbeschreibung](#fehlerbeschreibung)           | `object`  | Optional | cannot be null | [Untitled schema](fehlerbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/fehlerbeschreibung")                                         |
+| [begruendung](#begruendung)                         | `object`  | Optional | cannot be null | [Untitled schema](begruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Begruendung.schema.json#/properties/begruendung")                                                              |
+| [lokationsId](#lokationsid)                         | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/lokationsId")             |
+| [referenzMelo](#referenzmelo)                       | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-referenzmelo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/referenzMelo")           |
+| [allgemeineInformationen](#allgemeineinformationen) | `object`  | Optional | cannot be null | [Untitled schema](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")                          |
 
 ## positionsnummer
 
@@ -32,7 +32,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-positionsnummer.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/positionsnummer")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-positionsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/positionsnummer")
 
 ### positionsnummer Type
 
@@ -50,7 +50,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-bearbeitungsdatum.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/bearbeitungsdatum")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/bearbeitungsdatum")
 
 ### bearbeitungsdatum Type
 
@@ -68,7 +68,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-verwendungab.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/verwendungAb")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungAb")
 
 ### verwendungAb Type
 
@@ -86,7 +86,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-verwendungbis.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/verwendungBis")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungBis")
 
 ### verwendungBis Type
 
@@ -104,7 +104,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-enddatum.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/enddatum")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/enddatum")
 
 ### enddatum Type
 
@@ -122,7 +122,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](auftragsstatus.md "https://conuti.de/bo4e/schemas/v1/enum/Auftragsstatus#/properties/auftragsstatus")
+*   defined in: [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")
 
 ### auftragsstatus Type
 
@@ -140,7 +140,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusanlass.md "https://conuti.de/bo4e/schemas/v1/enum/Statusanlass#/properties/statusanlass")
+*   defined in: [Untitled schema](statusanlass.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Statusanlass.schema.json#/properties/statusanlass")
 
 ### statusanlass Type
 
@@ -158,7 +158,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-antwortstatus.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/antwortstatus")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-antwortstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/antwortstatus")
 
 ### antwortstatus Type
 
@@ -176,7 +176,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fehlerbeschreibung.md "https://conuti.de/bo4e/schemas/v1/com/Fehlerbeschreibung#/properties/fehlerbeschreibung")
+*   defined in: [Untitled schema](fehlerbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/fehlerbeschreibung")
 
 ### fehlerbeschreibung Type
 
@@ -194,7 +194,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](begruendung.md "https://conuti.de/bo4e/schemas/v1/com/Begruendung#/properties/begruendung")
+*   defined in: [Untitled schema](begruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Begruendung.schema.json#/properties/begruendung")
 
 ### begruendung Type
 
@@ -212,7 +212,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-lokationsid.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/lokationsId")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/lokationsId")
 
 ### lokationsId Type
 
@@ -230,7 +230,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](statusmitteilungposition-properties-referenzmelo.md "https://conuti.de/bo4e/schemas/v1/com/StatusmitteilungPosition#/properties/referenzMelo")
+*   defined in: [Untitled schema](statusmitteilungposition-properties-referenzmelo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/referenzMelo")
 
 ### referenzMelo Type
 
@@ -248,7 +248,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](allgemeineinformationen.md "https://conuti.de/bo4e/schemas/v1/com/AllgemeineInformationen#/properties/allgemeineInformationen")
+*   defined in: [Untitled schema](allgemeineinformationen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/AllgemeineInformationen.schema.json#/properties/allgemeineInformationen")
 
 ### allgemeineInformationen Type
 

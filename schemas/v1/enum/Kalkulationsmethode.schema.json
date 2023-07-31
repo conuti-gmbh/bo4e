@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
-  "$id": "https://conuti.de/bo4e/schemas/v1/enum/Kalkulationsmethode",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Kalkulationsmethode.schema.json",
   "type": "array",
   "items": {
     "type": "string",

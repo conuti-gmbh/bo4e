@@ -4,34 +4,34 @@
 
 # Untitled object in undefined Properties
 
-| Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                         |
-| :-------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                     | `array`  | Required | cannot be null | [Untitled schema](botyp.md "https://conuti.de/bo4e/schemas/v1/enum/BOTyp#/properties/boTyp")                                                       |
-| [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Untitled schema](zaehler-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/versionStruktur")                |
-| [zaehlernummer](#zaehlernummer)                     | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlernummer.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlernummer")                    |
-| [sparte](#sparte)                                   | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://conuti.de/bo4e/schemas/v1/enum/Sparte#/properties/sparte")                                                    |
-| [zaehlerauspraegung](#zaehlerauspraegung)           | `array`  | Optional | cannot be null | [Untitled schema](zaehlerauspraegung.md "https://conuti.de/bo4e/schemas/v1/enum/Zaehlerauspraegung#/properties/zaehlerauspraegung")                |
-| [zaehlertyp](#zaehlertyp)                           | `array`  | Optional | cannot be null | [Untitled schema](zaehlertyp.md "https://conuti.de/bo4e/schemas/v1/enum/Zaehlertyp#/properties/zaehlertyp")                                        |
-| [tarifart](#tarifart)                               | `array`  | Optional | cannot be null | [Untitled schema](tarifart.md "https://conuti.de/bo4e/schemas/v1/enum/Tarifart#/properties/tarifart")                                              |
-| [zaehlerkonstante](#zaehlerkonstante)               | `number` | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlerkonstante.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlerkonstante")              |
-| [eichungBis](#eichungbis)                           | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-eichungbis.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/eichungBis")                          |
-| [zaehlerhersteller](#zaehlerhersteller)             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/zaehlerhersteller")                     |
-| [gateway](#gateway)                                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-gateway.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/gateway")                                |
-| [fernschaltung](#fernschaltung)                     | `array`  | Optional | cannot be null | [Untitled schema](fernschaltung.md "https://conuti.de/bo4e/schemas/v1/enum/Fernschaltung#/properties/fernschaltung")                               |
-| [messwerterfassung](#messwerterfassung)             | `array`  | Optional | cannot be null | [Untitled schema](messwerterfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Messwerterfassung#/properties/messwerterfassung")                   |
-| [zaehlertypspezifikation](#zaehlertypspezifikation) | `array`  | Optional | cannot be null | [Untitled schema](zaehlertypspezifikation.md "https://conuti.de/bo4e/schemas/v1/enum/ZaehlertypSpezifikation#/properties/zaehlertypspezifikation") |
-| [befestigungsart](#befestigungsart)                 | `array`  | Optional | cannot be null | [Untitled schema](befestigungsart.md "https://conuti.de/bo4e/schemas/v1/enum/Befestigungsart#/properties/befestigungsart")                         |
-| [zaehlergroesse](#zaehlergroesse)                   | `array`  | Optional | cannot be null | [Untitled schema](geraetemerkmal.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetemerkmal#/properties/zaehlergroesse")                            |
-| [mengenumwertertyp](#mengenumwertertyp)             | `array`  | Optional | cannot be null | [Untitled schema](mengenumwertertyp.md "https://conuti.de/bo4e/schemas/v1/enum/Mengenumwertertyp#/properties/mengenumwertertyp")                   |
-| [volumenerfassung](#volumenerfassung)               | `array`  | Optional | cannot be null | [Untitled schema](volumenerfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Volumenerfassung#/properties/volumenerfassung")                      |
-| [serialnummer](#serialnummer)                       | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-serialnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/serialnummer")                      |
-| [geraetemerkmal](#geraetemerkmal)                   | `array`  | Optional | cannot be null | [Untitled schema](geraetemerkmal.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetemerkmal#/properties/geraetemerkmal")                            |
-| [herstellungsdatum](#herstellungsdatum)             | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-herstellungsdatum.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/herstellungsdatum")            |
-| [baujahr](#baujahr)                                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-baujahr.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/baujahr")                                |
-| [messlokationsId](#messlokationsid)                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-messlokationsid.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/messlokationsId")                |
-| [marktlokationsId](#marktlokationsid)               | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-marktlokationsid.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/marktlokationsId")              |
-| [geraete](#geraete)                                 | `array`  | Optional | cannot be null | [Untitled schema](zaehler-properties-geraete.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/geraete")                                |
-| [zaehlwerke](#zaehlwerke)                           | `array`  | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlwerke.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlwerke")                          |
+| Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                      |
+| :-------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                     | `array`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                       |
+| [versionStruktur](#versionstruktur)                 | `string` | Required | cannot be null | [Untitled schema](zaehler-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/versionStruktur")                |
+| [zaehlernummer](#zaehlernummer)                     | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlernummer")                    |
+| [sparte](#sparte)                                   | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                    |
+| [zaehlerauspraegung](#zaehlerauspraegung)           | `array`  | Optional | cannot be null | [Untitled schema](zaehlerauspraegung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zaehlerauspraegung.schema.json#/properties/zaehlerauspraegung")                |
+| [zaehlertyp](#zaehlertyp)                           | `array`  | Optional | cannot be null | [Untitled schema](zaehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zaehlertyp.schema.json#/properties/zaehlertyp")                                        |
+| [tarifart](#tarifart)                               | `array`  | Optional | cannot be null | [Untitled schema](tarifart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Tarifart.schema.json#/properties/tarifart")                                              |
+| [zaehlerkonstante](#zaehlerkonstante)               | `number` | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlerkonstante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlerkonstante")              |
+| [eichungBis](#eichungbis)                           | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/eichungBis")                          |
+| [zaehlerhersteller](#zaehlerhersteller)             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/zaehlerhersteller")                     |
+| [gateway](#gateway)                                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-gateway.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/gateway")                                |
+| [fernschaltung](#fernschaltung)                     | `array`  | Optional | cannot be null | [Untitled schema](fernschaltung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernschaltung.schema.json#/properties/fernschaltung")                               |
+| [messwerterfassung](#messwerterfassung)             | `array`  | Optional | cannot be null | [Untitled schema](messwerterfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Messwerterfassung.schema.json#/properties/messwerterfassung")                   |
+| [zaehlertypspezifikation](#zaehlertypspezifikation) | `array`  | Optional | cannot be null | [Untitled schema](zaehlertypspezifikation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlertypSpezifikation.schema.json#/properties/zaehlertypspezifikation") |
+| [befestigungsart](#befestigungsart)                 | `array`  | Optional | cannot be null | [Untitled schema](befestigungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Befestigungsart.schema.json#/properties/befestigungsart")                         |
+| [zaehlergroesse](#zaehlergroesse)                   | `array`  | Optional | cannot be null | [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/zaehlergroesse")                            |
+| [mengenumwertertyp](#mengenumwertertyp)             | `array`  | Optional | cannot be null | [Untitled schema](mengenumwertertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengenumwertertyp.schema.json#/properties/mengenumwertertyp")                   |
+| [volumenerfassung](#volumenerfassung)               | `array`  | Optional | cannot be null | [Untitled schema](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")                      |
+| [serialnummer](#serialnummer)                       | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummer")                      |
+| [geraetemerkmal](#geraetemerkmal)                   | `array`  | Optional | cannot be null | [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")                            |
+| [herstellungsdatum](#herstellungsdatum)             | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/herstellungsdatum")            |
+| [baujahr](#baujahr)                                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/baujahr")                                |
+| [messlokationsId](#messlokationsid)                 | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/messlokationsId")                |
+| [marktlokationsId](#marktlokationsid)               | `string` | Optional | cannot be null | [Untitled schema](zaehler-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/marktlokationsId")              |
+| [geraete](#geraete)                                 | `array`  | Optional | cannot be null | [Untitled schema](zaehler-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/geraete")                                |
+| [zaehlwerke](#zaehlwerke)                           | `array`  | Optional | cannot be null | [Untitled schema](zaehler-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke")                          |
 
 ## boTyp
 
@@ -45,7 +45,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://conuti.de/bo4e/schemas/v1/enum/BOTyp#/properties/boTyp")
+*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -63,7 +63,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/versionStruktur")
+*   defined in: [Untitled schema](zaehler-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -81,7 +81,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-zaehlernummer.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlernummer")
+*   defined in: [Untitled schema](zaehler-properties-zaehlernummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlernummer")
 
 ### zaehlernummer Type
 
@@ -99,7 +99,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](sparte.md "https://conuti.de/bo4e/schemas/v1/enum/Sparte#/properties/sparte")
+*   defined in: [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")
 
 ### sparte Type
 
@@ -117,7 +117,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlerauspraegung.md "https://conuti.de/bo4e/schemas/v1/enum/Zaehlerauspraegung#/properties/zaehlerauspraegung")
+*   defined in: [Untitled schema](zaehlerauspraegung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zaehlerauspraegung.schema.json#/properties/zaehlerauspraegung")
 
 ### zaehlerauspraegung Type
 
@@ -135,7 +135,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlertyp.md "https://conuti.de/bo4e/schemas/v1/enum/Zaehlertyp#/properties/zaehlertyp")
+*   defined in: [Untitled schema](zaehlertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zaehlertyp.schema.json#/properties/zaehlertyp")
 
 ### zaehlertyp Type
 
@@ -153,7 +153,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](tarifart.md "https://conuti.de/bo4e/schemas/v1/enum/Tarifart#/properties/tarifart")
+*   defined in: [Untitled schema](tarifart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Tarifart.schema.json#/properties/tarifart")
 
 ### tarifart Type
 
@@ -171,7 +171,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-zaehlerkonstante.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlerkonstante")
+*   defined in: [Untitled schema](zaehler-properties-zaehlerkonstante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlerkonstante")
 
 ### zaehlerkonstante Type
 
@@ -193,7 +193,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-eichungbis.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/eichungBis")
+*   defined in: [Untitled schema](zaehler-properties-eichungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/eichungBis")
 
 ### eichungBis Type
 
@@ -211,7 +211,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/zaehlerhersteller")
+*   defined in: [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/zaehlerhersteller")
 
 ### zaehlerhersteller Type
 
@@ -229,7 +229,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-gateway.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/gateway")
+*   defined in: [Untitled schema](zaehler-properties-gateway.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/gateway")
 
 ### gateway Type
 
@@ -247,7 +247,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](fernschaltung.md "https://conuti.de/bo4e/schemas/v1/enum/Fernschaltung#/properties/fernschaltung")
+*   defined in: [Untitled schema](fernschaltung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernschaltung.schema.json#/properties/fernschaltung")
 
 ### fernschaltung Type
 
@@ -265,7 +265,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messwerterfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Messwerterfassung#/properties/messwerterfassung")
+*   defined in: [Untitled schema](messwerterfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Messwerterfassung.schema.json#/properties/messwerterfassung")
 
 ### messwerterfassung Type
 
@@ -283,7 +283,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehlertypspezifikation.md "https://conuti.de/bo4e/schemas/v1/enum/ZaehlertypSpezifikation#/properties/zaehlertypspezifikation")
+*   defined in: [Untitled schema](zaehlertypspezifikation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZaehlertypSpezifikation.schema.json#/properties/zaehlertypspezifikation")
 
 ### zaehlertypspezifikation Type
 
@@ -301,7 +301,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](befestigungsart.md "https://conuti.de/bo4e/schemas/v1/enum/Befestigungsart#/properties/befestigungsart")
+*   defined in: [Untitled schema](befestigungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Befestigungsart.schema.json#/properties/befestigungsart")
 
 ### befestigungsart Type
 
@@ -319,7 +319,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraetemerkmal.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetemerkmal#/properties/zaehlergroesse")
+*   defined in: [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/zaehlergroesse")
 
 ### zaehlergroesse Type
 
@@ -337,7 +337,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](mengenumwertertyp.md "https://conuti.de/bo4e/schemas/v1/enum/Mengenumwertertyp#/properties/mengenumwertertyp")
+*   defined in: [Untitled schema](mengenumwertertyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengenumwertertyp.schema.json#/properties/mengenumwertertyp")
 
 ### mengenumwertertyp Type
 
@@ -355,7 +355,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](volumenerfassung.md "https://conuti.de/bo4e/schemas/v1/enum/Volumenerfassung#/properties/volumenerfassung")
+*   defined in: [Untitled schema](volumenerfassung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Volumenerfassung.schema.json#/properties/volumenerfassung")
 
 ### volumenerfassung Type
 
@@ -373,7 +373,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-serialnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/serialnummer")
+*   defined in: [Untitled schema](zaehler-properties-serialnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/serialnummer")
 
 ### serialnummer Type
 
@@ -391,7 +391,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geraetemerkmal.md "https://conuti.de/bo4e/schemas/v1/enum/Geraetemerkmal#/properties/geraetemerkmal")
+*   defined in: [Untitled schema](geraetemerkmal.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geraetemerkmal.schema.json#/properties/geraetemerkmal")
 
 ### geraetemerkmal Type
 
@@ -409,7 +409,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-herstellungsdatum.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/herstellungsdatum")
+*   defined in: [Untitled schema](zaehler-properties-herstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/herstellungsdatum")
 
 ### herstellungsdatum Type
 
@@ -427,7 +427,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-baujahr.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/baujahr")
+*   defined in: [Untitled schema](zaehler-properties-baujahr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/baujahr")
 
 ### baujahr Type
 
@@ -445,7 +445,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-messlokationsid.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/messlokationsId")
+*   defined in: [Untitled schema](zaehler-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/messlokationsId")
 
 ### messlokationsId Type
 
@@ -463,7 +463,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-marktlokationsid.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/marktlokationsId")
+*   defined in: [Untitled schema](zaehler-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/marktlokationsId")
 
 ### marktlokationsId Type
 
@@ -481,7 +481,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-geraete.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/geraete")
+*   defined in: [Untitled schema](zaehler-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/geraete")
 
 ### geraete Type
 
@@ -499,7 +499,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](zaehler-properties-zaehlwerke.md "https://conuti.de/bo4e/schemas/v1/bo/Zaehler#/properties/zaehlwerke")
+*   defined in: [Untitled schema](zaehler-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Zaehler.schema.json#/properties/zaehlwerke")
 
 ### zaehlwerke Type
 

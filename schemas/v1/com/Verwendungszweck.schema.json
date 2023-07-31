@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
-  "$id": "https://conuti.de/bo4e/schemas/v1/com/Verwendungszweck",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Verwendungszweck.schema.json",
   "type": "object",
   "properties": {
     "marktrolle": {

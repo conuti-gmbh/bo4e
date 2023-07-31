@@ -17,8 +17,6 @@ class Statusmitteilung
         readonly string $versionStruktur,
         readonly ?Statusobjekt $statusObjekt,
         readonly ?Status $statusanlass,
-        readonly ?string $antwortstatusCodeliste,
-        readonly ?string $antwortstatus,
         readonly ?Auftragsstatus $auftragsstatus,
         /** @var StatusmitteilungPosition[] $positionsdaten */
         readonly array $positionsdaten = [],

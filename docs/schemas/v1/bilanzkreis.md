@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                          |
-| :-------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| [bezeichnung](#bezeichnung) | `string`  | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://conuti.de/bo4e/schemas/v1/bo/Bilanzkreis#/properties/bezeichnung") |
-| [prioritaet](#prioritaet)   | `integer` | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-prioritaet.md "https://conuti.de/bo4e/schemas/v1/bo/Bilanzkreis#/properties/prioritaet")   |
+| Property                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                       |
+| :-------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bezeichnung](#bezeichnung) | `string`  | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung") |
+| [prioritaet](#prioritaet)   | `integer` | Optional | cannot be null | [Untitled schema](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")   |
 
 ## bezeichnung
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://conuti.de/bo4e/schemas/v1/bo/Bilanzkreis#/properties/bezeichnung")
+*   defined in: [Untitled schema](bilanzkreis-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzkreis.schema.json#/properties/bezeichnung")
 
 ### bezeichnung Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bilanzkreis-properties-prioritaet.md "https://conuti.de/bo4e/schemas/v1/bo/Bilanzkreis#/properties/prioritaet")
+*   defined in: [Untitled schema](bilanzkreis-properties-prioritaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzkreis.schema.json#/properties/prioritaet")
 
 ### prioritaet Type
 

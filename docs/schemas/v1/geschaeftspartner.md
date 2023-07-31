@@ -4,27 +4,27 @@
 
 # Untitled object in undefined Properties
 
-| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                      |
-| :---------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [boTyp](#botyp)                                             | `array`   | Required | cannot be null | [Untitled schema](botyp.md "https://conuti.de/bo4e/schemas/v1/enum/BOTyp#/properties/boTyp")                                                                                    |
-| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](geschaeftspartner-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/versionStruktur")                         |
-| [anrede](#anrede)                                           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-anrede.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/anrede")                                           |
-| [name1](#name1)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name1.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name1")                                             |
-| [name2](#name2)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name2.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name2")                                             |
-| [name3](#name3)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name3.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name3")                                             |
-| [name4](#name4)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name4.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name4")                                             |
-| [umsatzsteuerId](#umsatzsteuerid)                           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-umsatzsteuerid.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/umsatzsteuerId")                           |
-| [glaeubigerId](#glaeubigerid)                               | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-glaeubigerid.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/glaeubigerId")                               |
-| [emailAdresse](#emailadresse)                               | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-emailadresse.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/emailAdresse")                               |
-| [website](#website)                                         | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-website.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/website")                                         |
-| [gewerbekennzeichnung](#gewerbekennzeichnung)               | `boolean` | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-gewerbekennzeichnung.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/gewerbekennzeichnung")               |
-| [hrnummer](#hrnummer)                                       | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-hrnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/hrnummer")                                       |
-| [amtsgericht](#amtsgericht)                                 | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-amtsgericht.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/amtsgericht")                                 |
-| [partneradresse](#partneradresse)                           | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/partneradresse")                                                                        |
-| [externeKundenummerLieferant](#externekundenummerlieferant) | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-externekundenummerlieferant.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/externeKundenummerLieferant") |
-| [externeReferenzen](#externereferenzen)                     | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-externereferenzen.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/externeReferenzen")                     |
-| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/geschaeftspartnerrolle")           |
-| [kontaktweg](#kontaktweg)                                   | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-kontaktweg.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/kontaktweg")                                   |
+| Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
+| :---------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [boTyp](#botyp)                                             | `array`   | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                    |
+| [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](geschaeftspartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/versionStruktur")                         |
+| [anrede](#anrede)                                           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/anrede")                                           |
+| [name1](#name1)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name1")                                             |
+| [name2](#name2)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name2")                                             |
+| [name3](#name3)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name3")                                             |
+| [name4](#name4)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name4")                                             |
+| [umsatzsteuerId](#umsatzsteuerid)                           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/umsatzsteuerId")                           |
+| [glaeubigerId](#glaeubigerid)                               | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-glaeubigerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/glaeubigerId")                               |
+| [emailAdresse](#emailadresse)                               | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/emailAdresse")                               |
+| [website](#website)                                         | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/website")                                         |
+| [gewerbekennzeichnung](#gewerbekennzeichnung)               | `boolean` | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/gewerbekennzeichnung")               |
+| [hrnummer](#hrnummer)                                       | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/hrnummer")                                       |
+| [amtsgericht](#amtsgericht)                                 | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/amtsgericht")                                 |
+| [partneradresse](#partneradresse)                           | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")                                                                        |
+| [externeKundenummerLieferant](#externekundenummerlieferant) | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeKundenummerLieferant") |
+| [externeReferenzen](#externereferenzen)                     | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")                     |
+| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")           |
+| [kontaktweg](#kontaktweg)                                   | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")                                   |
 
 ## boTyp
 
@@ -38,7 +38,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](botyp.md "https://conuti.de/bo4e/schemas/v1/enum/BOTyp#/properties/boTyp")
+*   defined in: [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")
 
 ### boTyp Type
 
@@ -56,7 +56,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-versionstruktur.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/versionStruktur")
+*   defined in: [Untitled schema](geschaeftspartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/versionStruktur")
 
 ### versionStruktur Type
 
@@ -74,7 +74,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-anrede.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/anrede")
+*   defined in: [Untitled schema](geschaeftspartner-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/anrede")
 
 ### anrede Type
 
@@ -92,7 +92,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-name1.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name1")
+*   defined in: [Untitled schema](geschaeftspartner-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name1")
 
 ### name1 Type
 
@@ -110,7 +110,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-name2.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name2")
+*   defined in: [Untitled schema](geschaeftspartner-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name2")
 
 ### name2 Type
 
@@ -128,7 +128,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-name3.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name3")
+*   defined in: [Untitled schema](geschaeftspartner-properties-name3.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name3")
 
 ### name3 Type
 
@@ -146,7 +146,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-name4.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/name4")
+*   defined in: [Untitled schema](geschaeftspartner-properties-name4.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name4")
 
 ### name4 Type
 
@@ -164,7 +164,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-umsatzsteuerid.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/umsatzsteuerId")
+*   defined in: [Untitled schema](geschaeftspartner-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/umsatzsteuerId")
 
 ### umsatzsteuerId Type
 
@@ -182,7 +182,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-glaeubigerid.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/glaeubigerId")
+*   defined in: [Untitled schema](geschaeftspartner-properties-glaeubigerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/glaeubigerId")
 
 ### glaeubigerId Type
 
@@ -200,7 +200,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-emailadresse.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/emailAdresse")
+*   defined in: [Untitled schema](geschaeftspartner-properties-emailadresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/emailAdresse")
 
 ### emailAdresse Type
 
@@ -218,7 +218,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-website.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/website")
+*   defined in: [Untitled schema](geschaeftspartner-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/website")
 
 ### website Type
 
@@ -236,7 +236,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-gewerbekennzeichnung.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/gewerbekennzeichnung")
+*   defined in: [Untitled schema](geschaeftspartner-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/gewerbekennzeichnung")
 
 ### gewerbekennzeichnung Type
 
@@ -254,7 +254,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-hrnummer.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/hrnummer")
+*   defined in: [Untitled schema](geschaeftspartner-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/hrnummer")
 
 ### hrnummer Type
 
@@ -272,7 +272,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-amtsgericht.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/amtsgericht")
+*   defined in: [Untitled schema](geschaeftspartner-properties-amtsgericht.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/amtsgericht")
 
 ### amtsgericht Type
 
@@ -290,7 +290,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/partneradresse")
+*   defined in: [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")
 
 ### partneradresse Type
 
@@ -308,7 +308,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-externekundenummerlieferant.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/externeKundenummerLieferant")
+*   defined in: [Untitled schema](geschaeftspartner-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeKundenummerLieferant")
 
 ### externeKundenummerLieferant Type
 
@@ -326,7 +326,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-externereferenzen.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/externeReferenzen")
+*   defined in: [Untitled schema](geschaeftspartner-properties-externereferenzen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/externeReferenzen")
 
 ### externeReferenzen Type
 
@@ -344,7 +344,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/geschaeftspartnerrolle")
+*   defined in: [Untitled schema](geschaeftspartner-properties-geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/geschaeftspartnerrolle")
 
 ### geschaeftspartnerrolle Type
 
@@ -362,7 +362,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](geschaeftspartner-properties-kontaktweg.md "https://conuti.de/bo4e/schemas/v1/bo/Geschaeftspartner#/properties/kontaktweg")
+*   defined in: [Untitled schema](geschaeftspartner-properties-kontaktweg.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/kontaktweg")
 
 ### kontaktweg Type
 
