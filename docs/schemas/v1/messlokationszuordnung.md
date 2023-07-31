@@ -4,12 +4,12 @@
 
 # Untitled object in undefined Properties
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                         |
-| :---------------------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [messlokationsId](#messlokationsid) | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-messlokationsid.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/messlokationsId") |
-| [arithmetik](#arithmetik)           | `array`  | Optional | cannot be null | [Untitled schema](arithmetischeoperation.md "https://conuti.de/bo4e/schemas/v1/enum/ArithmetischeOperation#/properties/arithmetik")                                |
-| [gueltigSeit](#gueltigseit)         | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-gueltigseit.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/gueltigSeit")         |
-| [gueltigBis](#gueltigbis)           | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-gueltigbis.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/gueltigBis")           |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                      |
+| :---------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [messlokationsId](#messlokationsid) | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/messlokationsId") |
+| [arithmetik](#arithmetik)           | `array`  | Optional | cannot be null | [Untitled schema](arithmetischeoperation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArithmetischeOperation.schema.json#/properties/arithmetik")                                |
+| [gueltigSeit](#gueltigseit)         | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-gueltigseit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/gueltigSeit")         |
+| [gueltigBis](#gueltigbis)           | `string` | Optional | cannot be null | [Untitled schema](messlokationszuordnung-properties-gueltigbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/gueltigBis")           |
 
 ## messlokationsId
 
@@ -23,7 +23,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokationszuordnung-properties-messlokationsid.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/messlokationsId")
+*   defined in: [Untitled schema](messlokationszuordnung-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/messlokationsId")
 
 ### messlokationsId Type
 
@@ -41,7 +41,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](arithmetischeoperation.md "https://conuti.de/bo4e/schemas/v1/enum/ArithmetischeOperation#/properties/arithmetik")
+*   defined in: [Untitled schema](arithmetischeoperation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArithmetischeOperation.schema.json#/properties/arithmetik")
 
 ### arithmetik Type
 
@@ -59,7 +59,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokationszuordnung-properties-gueltigseit.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/gueltigSeit")
+*   defined in: [Untitled schema](messlokationszuordnung-properties-gueltigseit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/gueltigSeit")
 
 ### gueltigSeit Type
 
@@ -81,7 +81,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](messlokationszuordnung-properties-gueltigbis.md "https://conuti.de/bo4e/schemas/v1/com/Messlokationszuordnung#/properties/gueltigBis")
+*   defined in: [Untitled schema](messlokationszuordnung-properties-gueltigbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Messlokationszuordnung.schema.json#/properties/gueltigBis")
 
 ### gueltigBis Type
 

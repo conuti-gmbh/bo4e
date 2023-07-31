@@ -4,10 +4,10 @@
 
 # Untitled object in undefined Properties
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                               |
-| :---------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| [exRefName](#exrefname) | `string` | Optional | cannot be null | [Untitled schema](externereferenz-properties-exrefname.md "https://conuti.de/bo4e/schemas/v1/com/ExterneReferenz#/properties/exRefName") |
-| [exRefWert](#exrefwert) | `string` | Optional | cannot be null | [Untitled schema](externereferenz-properties-exrefwert.md "https://conuti.de/bo4e/schemas/v1/com/ExterneReferenz#/properties/exRefWert") |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                            |
+| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [exRefName](#exrefname) | `string` | Optional | cannot be null | [Untitled schema](externereferenz-properties-exrefname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/ExterneReferenz.schema.json#/properties/exRefName") |
+| [exRefWert](#exrefwert) | `string` | Optional | cannot be null | [Untitled schema](externereferenz-properties-exrefwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/ExterneReferenz.schema.json#/properties/exRefWert") |
 
 ## exRefName
 
@@ -21,7 +21,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](externereferenz-properties-exrefname.md "https://conuti.de/bo4e/schemas/v1/com/ExterneReferenz#/properties/exRefName")
+*   defined in: [Untitled schema](externereferenz-properties-exrefname.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/ExterneReferenz.schema.json#/properties/exRefName")
 
 ### exRefName Type
 
@@ -39,7 +39,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](externereferenz-properties-exrefwert.md "https://conuti.de/bo4e/schemas/v1/com/ExterneReferenz#/properties/exRefWert")
+*   defined in: [Untitled schema](externereferenz-properties-exrefwert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/ExterneReferenz.schema.json#/properties/exRefWert")
 
 ### exRefWert Type
 

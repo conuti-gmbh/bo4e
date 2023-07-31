@@ -4,14 +4,14 @@
 
 # Untitled object in undefined Properties
 
-| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                       |
-| :-------------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [positionsbezeichung](#positionsbezeichung)   | `string` | Optional | cannot be null | [Untitled schema](angebotsposition-properties-positionsbezeichung.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsposition#/properties/positionsbezeichung")   |
-| [positionsmenge](#positionsmenge)             | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/positionsmenge")                                                             |
-| [positionspreis](#positionspreis)             | `object` | Optional | cannot be null | [Untitled schema](preis.md "https://conuti.de/bo4e/schemas/v1/com/Preis#/properties/positionspreis")                                                             |
-| [positionsbetrag](#positionsbetrag)           | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/positionsbetrag")                                                          |
-| [preisschluesselstamm](#preisschluesselstamm) | `string` | Optional | cannot be null | [Untitled schema](angebotsposition-properties-preisschluesselstamm.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsposition#/properties/preisschluesselstamm") |
-| [bdewArtikelnummer](#bdewartikelnummer)       | `array`  | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://conuti.de/bo4e/schemas/v1/enum/BDEWArtikelnummer#/properties/bdewArtikelnummer")                                 |
+| Property                                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                    |
+| :-------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [positionsbezeichung](#positionsbezeichung)   | `string` | Optional | cannot be null | [Untitled schema](angebotsposition-properties-positionsbezeichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichung")   |
+| [positionsmenge](#positionsmenge)             | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/positionsmenge")                                                             |
+| [positionspreis](#positionspreis)             | `object` | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Preis.schema.json#/properties/positionspreis")                                                             |
+| [positionsbetrag](#positionsbetrag)           | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/positionsbetrag")                                                          |
+| [preisschluesselstamm](#preisschluesselstamm) | `string` | Optional | cannot be null | [Untitled schema](angebotsposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsposition.schema.json#/properties/preisschluesselstamm") |
+| [bdewArtikelnummer](#bdewartikelnummer)       | `array`  | Optional | cannot be null | [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")                                 |
 
 ## positionsbezeichung
 
@@ -25,7 +25,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsposition-properties-positionsbezeichung.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsposition#/properties/positionsbezeichung")
+*   defined in: [Untitled schema](angebotsposition-properties-positionsbezeichung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsposition.schema.json#/properties/positionsbezeichung")
 
 ### positionsbezeichung Type
 
@@ -43,7 +43,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](menge.md "https://conuti.de/bo4e/schemas/v1/com/Menge#/properties/positionsmenge")
+*   defined in: [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/positionsmenge")
 
 ### positionsmenge Type
 
@@ -61,7 +61,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](preis.md "https://conuti.de/bo4e/schemas/v1/com/Preis#/properties/positionspreis")
+*   defined in: [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Preis.schema.json#/properties/positionspreis")
 
 ### positionspreis Type
 
@@ -79,7 +79,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](betrag.md "https://conuti.de/bo4e/schemas/v1/com/Betrag#/properties/positionsbetrag")
+*   defined in: [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/positionsbetrag")
 
 ### positionsbetrag Type
 
@@ -97,7 +97,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](angebotsposition-properties-preisschluesselstamm.md "https://conuti.de/bo4e/schemas/v1/com/Angebotsposition#/properties/preisschluesselstamm")
+*   defined in: [Untitled schema](angebotsposition-properties-preisschluesselstamm.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsposition.schema.json#/properties/preisschluesselstamm")
 
 ### preisschluesselstamm Type
 
@@ -115,7 +115,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](bdewartikelnummer.md "https://conuti.de/bo4e/schemas/v1/enum/BDEWArtikelnummer#/properties/bdewArtikelnummer")
+*   defined in: [Untitled schema](bdewartikelnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BDEWArtikelnummer.schema.json#/properties/bdewArtikelnummer")
 
 ### bdewArtikelnummer Type
 

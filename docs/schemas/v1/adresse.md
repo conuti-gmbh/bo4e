@@ -4,18 +4,18 @@
 
 # Untitled object in undefined Properties
 
-| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                  |
-| :-------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [postleitzahl](#postleitzahl)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-postleitzahl.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/postleitzahl")              |
-| [ort](#ort)                             | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-ort.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/ort")                                |
-| [strasse](#strasse)                     | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-strasse.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/strasse")                        |
-| [hausnummer](#hausnummer)               | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-hausnummer.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/hausnummer")                  |
-| [postfach](#postfach)                   | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-postfach.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/postfach")                      |
-| [adresszusatz](#adresszusatz)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-adresszusatz.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/adresszusatz")              |
-| [coErgaenzung](#coergaenzung)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-coergaenzung.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/coErgaenzung")              |
-| [landescode](#landescode)               | `array`  | Optional | cannot be null | [Untitled schema](landescode.md "https://conuti.de/bo4e/schemas/v1/enum/Landescode#/properties/landescode")                                 |
-| [ortsteil](#ortsteil)                   | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-ortsteil.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/ortsteil")                      |
-| [zusatzInformation](#zusatzinformation) | `object` | Optional | cannot be null | [Untitled schema](adresszusatzinformation.md "https://conuti.de/bo4e/schemas/v1/com/AdresszusatzInformation#/properties/zusatzInformation") |
+| Property                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                               |
+| :-------------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [postleitzahl](#postleitzahl)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-postleitzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/postleitzahl")              |
+| [ort](#ort)                             | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-ort.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/ort")                                |
+| [strasse](#strasse)                     | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-strasse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/strasse")                        |
+| [hausnummer](#hausnummer)               | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-hausnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/hausnummer")                  |
+| [postfach](#postfach)                   | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-postfach.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/postfach")                      |
+| [adresszusatz](#adresszusatz)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-adresszusatz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/adresszusatz")              |
+| [coErgaenzung](#coergaenzung)           | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-coergaenzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/coErgaenzung")              |
+| [landescode](#landescode)               | `array`  | Optional | cannot be null | [Untitled schema](landescode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Landescode.schema.json#/properties/landescode")                                 |
+| [ortsteil](#ortsteil)                   | `string` | Optional | cannot be null | [Untitled schema](adresse-properties-ortsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/ortsteil")                      |
+| [zusatzInformation](#zusatzinformation) | `object` | Optional | cannot be null | [Untitled schema](adresszusatzinformation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/AdresszusatzInformation.schema.json#/properties/zusatzInformation") |
 
 ## postleitzahl
 
@@ -29,7 +29,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-postleitzahl.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/postleitzahl")
+*   defined in: [Untitled schema](adresse-properties-postleitzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/postleitzahl")
 
 ### postleitzahl Type
 
@@ -47,7 +47,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-ort.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/ort")
+*   defined in: [Untitled schema](adresse-properties-ort.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/ort")
 
 ### ort Type
 
@@ -65,7 +65,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-strasse.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/strasse")
+*   defined in: [Untitled schema](adresse-properties-strasse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/strasse")
 
 ### strasse Type
 
@@ -83,7 +83,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-hausnummer.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/hausnummer")
+*   defined in: [Untitled schema](adresse-properties-hausnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/hausnummer")
 
 ### hausnummer Type
 
@@ -101,7 +101,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-postfach.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/postfach")
+*   defined in: [Untitled schema](adresse-properties-postfach.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/postfach")
 
 ### postfach Type
 
@@ -119,7 +119,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-adresszusatz.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/adresszusatz")
+*   defined in: [Untitled schema](adresse-properties-adresszusatz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/adresszusatz")
 
 ### adresszusatz Type
 
@@ -137,7 +137,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-coergaenzung.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/coErgaenzung")
+*   defined in: [Untitled schema](adresse-properties-coergaenzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/coErgaenzung")
 
 ### coErgaenzung Type
 
@@ -155,7 +155,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](landescode.md "https://conuti.de/bo4e/schemas/v1/enum/Landescode#/properties/landescode")
+*   defined in: [Untitled schema](landescode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Landescode.schema.json#/properties/landescode")
 
 ### landescode Type
 
@@ -173,7 +173,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresse-properties-ortsteil.md "https://conuti.de/bo4e/schemas/v1/com/Adresse#/properties/ortsteil")
+*   defined in: [Untitled schema](adresse-properties-ortsteil.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/ortsteil")
 
 ### ortsteil Type
 
@@ -191,7 +191,7 @@
 
 *   cannot be null
 
-*   defined in: [Untitled schema](adresszusatzinformation.md "https://conuti.de/bo4e/schemas/v1/com/AdresszusatzInformation#/properties/zusatzInformation")
+*   defined in: [Untitled schema](adresszusatzinformation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/AdresszusatzInformation.schema.json#/properties/zusatzInformation")
 
 ### zusatzInformation Type
 

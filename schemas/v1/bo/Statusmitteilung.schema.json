@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
-  "$id": "https://conuti.de/bo4e/schemas/v1/bo/Statusmitteilung",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Statusmitteilung.schema.json",
   "type": "object",
   "properties": {
     "boTyp": {
@@ -14,12 +14,6 @@
     },
     "statusanlass": {
       "$ref": "../enum/Status.schema.json"
-    },
-    "antwortstatusCodeliste": {
-      "type": "string"
-    },
-    "antwortstatus": {
-      "type": "string"
     },
     "auftragsstatus": {
       "$ref": "../enum/Auftragsstatus.schema.json"
