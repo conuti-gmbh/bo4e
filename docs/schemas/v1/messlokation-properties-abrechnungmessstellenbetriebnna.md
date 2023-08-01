@@ -1,3 +1,3 @@
 ## abrechnungmessstellenbetriebnna Type
 
-`bool`
+`boolean`
