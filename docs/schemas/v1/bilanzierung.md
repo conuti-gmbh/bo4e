@@ -8,19 +8,19 @@
 | :------------------------------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [boTyp](#botyp)                                                     | `string` | Required | cannot be null | [Untitled schema](bilanzierung-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/boTyp")                                        |
 | [versionStruktur](#versionstruktur)                                 | `string` | Required | cannot be null | [Untitled schema](bilanzierung-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/versionStruktur")                    |
-| [aggregationsverantwortung](#aggregationsverantwortung)             | `array`  | Optional | cannot be null | [Untitled schema](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")         |
+| [aggregationsverantwortung](#aggregationsverantwortung)             | `string` | Optional | cannot be null | [Untitled schema](aggregationsverantwortung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Aggregationsverantwortung.schema.json#/properties/aggregationsverantwortung")         |
 | [zeitreihentyp](#zeitreihentyp)                                     | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/zeitreihentyp")                        |
-| [prognosegrundlage](#prognosegrundlage)                             | `array`  | Optional | cannot be null | [Untitled schema](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                 |
+| [prognosegrundlage](#prognosegrundlage)                             | `string` | Optional | cannot be null | [Untitled schema](prognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Prognosegrundlage.schema.json#/properties/prognosegrundlage")                                 |
 | [bilanzierungsbeginn](#bilanzierungsbeginn)                         | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsbeginn")            |
 | [bilanzierungsende](#bilanzierungsende)                             | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzierungsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzierungsende")                |
 | [bilanzkreis](#bilanzkreis)                                         | `string` | Optional | cannot be null | [Untitled schema](bilanzierung-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/bilanzkreis")                            |
-| [fallgruppenzuordnung](#fallgruppenzuordnung)                       | `array`  | Optional | cannot be null | [Untitled schema](fallgruppenzuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fallgruppenzuordnung.schema.json#/properties/fallgruppenzuordnung")                        |
+| [fallgruppenzuordnung](#fallgruppenzuordnung)                       | `string` | Optional | cannot be null | [Untitled schema](fallgruppenzuordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fallgruppenzuordnung.schema.json#/properties/fallgruppenzuordnung")                        |
 | [temperaturarbeit](#temperaturarbeit)                               | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/temperaturarbeit")                                                           |
 | [jahresverbrauchsprognose](#jahresverbrauchsprognose)               | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/jahresverbrauchsprognose")                                                   |
 | [kundenwert](#kundenwert)                                           | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/kundenwert")                                                                 |
 | [verbrauchsaufteilung](#verbrauchsaufteilung)                       | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/verbrauchsaufteilung")                                                       |
-| [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)           | `array`  | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")      |
-| [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage) | `array`  | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage") |
+| [wahlrechtPrognosegrundlage](#wahlrechtprognosegrundlage)           | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/wahlrechtPrognosegrundlage")      |
+| [grundWahlrechtPrognosegrundlage](#grundwahlrechtprognosegrundlage) | `string` | Optional | cannot be null | [Untitled schema](wahlrechtprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WahlrechtPrognosegrundlage.schema.json#/properties/grundWahlrechtPrognosegrundlage") |
 | [lastprofile](#lastprofile)                                         | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-lastprofile.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/lastprofile")                            |
 | [detailsPrognosegrundlage](#detailsprognosegrundlage)               | `array`  | Optional | cannot be null | [Untitled schema](bilanzierung-properties-detailsprognosegrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Bilanzierung.schema.json#/properties/detailsPrognosegrundlage")  |
 
@@ -68,7 +68,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -76,7 +76,16 @@
 
 ### aggregationsverantwortung Type
 
-`string[]`
+`string`
+
+### aggregationsverantwortung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"UENB"` |             |
+| `"VNB"`  |             |
 
 ## zeitreihentyp
 
@@ -104,7 +113,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -112,7 +121,16 @@
 
 ### prognosegrundlage Type
 
-`string[]`
+`string`
+
+### prognosegrundlage Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value       | Explanation |
+| :---------- | :---------- |
+| `"WERTE"`   |             |
+| `"PROFILE"` |             |
 
 ## bilanzierungsbeginn
 
@@ -176,7 +194,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -184,7 +202,17 @@
 
 ### fallgruppenzuordnung Type
 
-`string[]`
+`string`
+
+### fallgruppenzuordnung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value           | Explanation |
+| :-------------- | :---------- |
+| `"GABI_RLMmT"`  |             |
+| `"GABI_RLMoT"`  |             |
+| `"GABI_RLMNEV"` |             |
 
 ## temperaturarbeit
 
@@ -266,7 +294,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -274,7 +302,20 @@
 
 ### wahlrechtPrognosegrundlage Type
 
-`string[]`
+`string`
+
+### wahlrechtPrognosegrundlage Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                              | Explanation |
+| :--------------------------------- | :---------- |
+| `"DURCH_LF"`                       |             |
+| `"DURCH_LF_NICHT_GEGEBEN"`         |             |
+| `"NICHT_WEGEN_GROSSEN_VERBRAUCHS"` |             |
+| `"NICHT_WEGEN_EIGENVERBRAUCH"`     |             |
+| `"NICHT_WEGEN_TAGES_VERBRAUCH"`    |             |
+| `"NICHT_WEGEN_ENWG"`               |             |
 
 ## grundWahlrechtPrognosegrundlage
 
@@ -284,7 +325,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -292,7 +333,20 @@
 
 ### grundWahlrechtPrognosegrundlage Type
 
-`string[]`
+`string`
+
+### grundWahlrechtPrognosegrundlage Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                              | Explanation |
+| :--------------------------------- | :---------- |
+| `"DURCH_LF"`                       |             |
+| `"DURCH_LF_NICHT_GEGEBEN"`         |             |
+| `"NICHT_WEGEN_GROSSEN_VERBRAUCHS"` |             |
+| `"NICHT_WEGEN_EIGENVERBRAUCH"`     |             |
+| `"NICHT_WEGEN_TAGES_VERBRAUCH"`    |             |
+| `"NICHT_WEGEN_ENWG"`               |             |
 
 ## lastprofile
 
@@ -320,7 +374,7 @@
 
 *   is optional
 
-*   Type: `string[][]`
+*   Type: `string[]`
 
 *   cannot be null
 
@@ -328,4 +382,4 @@
 
 ### detailsPrognosegrundlage Type
 
-`string[][]`
+`string[]`

@@ -8,11 +8,11 @@
 | :-------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [rechenschrittBestandteilId](#rechenschrittbestandteilid) | `integer` | Optional | cannot be null | [Untitled schema](rechenschritt-properties-rechenschrittbestandteilid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Rechenschritt.schema.json#/properties/rechenschrittBestandteilId") |
 | [referenzRechenschrittId](#referenzrechenschrittid)       | `integer` | Optional | cannot be null | [Untitled schema](rechenschritt-properties-referenzrechenschrittid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Rechenschritt.schema.json#/properties/referenzRechenschrittId")       |
-| [operation](#operation)                                   | `array`   | Optional | cannot be null | [Untitled schema](arithmetischeoperation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArithmetischeOperation.schema.json#/properties/operation")                                     |
+| [operation](#operation)                                   | `string`  | Optional | cannot be null | [Untitled schema](arithmetischeoperation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArithmetischeOperation.schema.json#/properties/operation")                                     |
 | [verlustfaktorTrafo](#verlustfaktortrafo)                 | `number`  | Optional | cannot be null | [Untitled schema](rechenschritt-properties-verlustfaktortrafo.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Rechenschritt.schema.json#/properties/verlustfaktorTrafo")                 |
 | [verlustfaktorLeitung](#verlustfaktorleitung)             | `number`  | Optional | cannot be null | [Untitled schema](rechenschritt-properties-verlustfaktorleitung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Rechenschritt.schema.json#/properties/verlustfaktorLeitung")             |
 | [messlokationsId](#messlokationsid)                       | `string`  | Optional | cannot be null | [Untitled schema](rechenschritt-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Rechenschritt.schema.json#/properties/messlokationsId")                       |
-| [energieflussrichtung](#energieflussrichtung)             | `array`   | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energieflussrichtung")                                        |
+| [energieflussrichtung](#energieflussrichtung)             | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energieflussrichtung")                                        |
 
 ## rechenschrittBestandteilId
 
@@ -58,7 +58,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -66,7 +66,20 @@
 
 ### operation Type
 
-`string[]`
+`string`
+
+### operation Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"ADDITION"`       |             |
+| `"SUBTRAKTION"`    |             |
+| `"DIVISION"`       |             |
+| `"DIVIDEND"`       |             |
+| `"MULTIPLIKATION"` |             |
+| `"POSITIVWERT"`    |             |
 
 ## verlustfaktorTrafo
 
@@ -130,7 +143,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -138,4 +151,13 @@
 
 ### energieflussrichtung Type
 
-`string[]`
+`string`
+
+### energieflussrichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |

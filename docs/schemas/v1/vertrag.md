@@ -8,13 +8,13 @@
 | :-------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [boTyp](#botyp)                               | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/boTyp")                           |
 | [versionStruktur](#versionstruktur)           | `string`  | Required | cannot be null | [Untitled schema](vertrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/versionStruktur")       |
-| [sparte](#sparte)                             | `array`   | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                           |
+| [sparte](#sparte)                             | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                           |
 | [vertragsart](#vertragsart)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsart")               |
 | [vertragsnummer](#vertragsnummer)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsnummer")         |
 | [beschreibung](#beschreibung)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/beschreibung")             |
 | [lokationsId](#lokationsid)                   | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-lokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/lokationsId")               |
-| [lokationsTyp](#lokationstyp)                 | `array`   | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                         |
-| [vertragsstatus](#vertragsstatus)             | `array`   | Optional | cannot be null | [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")                     |
+| [lokationsTyp](#lokationstyp)                 | `string`  | Optional | cannot be null | [Untitled schema](lokationstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Lokationstyp.schema.json#/properties/lokationsTyp")                         |
+| [vertragsstatus](#vertragsstatus)             | `string`  | Optional | cannot be null | [Untitled schema](vertragstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Vertragstatus.schema.json#/properties/vertragsstatus")                     |
 | [vertragsende](#vertragsende)                 | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsende.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsende")             |
 | [vertragsbeginn](#vertragsbeginn)             | `string`  | Optional | cannot be null | [Untitled schema](vertrag-properties-vertragsbeginn.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/vertragsbeginn")         |
 | [gemeinderabatt](#gemeinderabatt)             | `integer` | Optional | cannot be null | [Untitled schema](vertrag-properties-gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Vertrag.schema.json#/properties/gemeinderabatt")         |
@@ -68,7 +68,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -76,7 +76,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## vertragsart
 
@@ -158,7 +171,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -166,7 +179,16 @@
 
 ### lokationsTyp Type
 
-`string[]`
+`string`
+
+### lokationsTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"MALO"` |             |
+| `"MELO"` |             |
 
 ## vertragsstatus
 
@@ -176,7 +198,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -184,7 +206,23 @@
 
 ### vertragsstatus Type
 
-`string[]`
+`string`
+
+### vertragsstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value            | Explanation |
+| :--------------- | :---------- |
+| `"IN_ARBEIT"`    |             |
+| `"UEBERMITTELT"` |             |
+| `"ANGENOMMEN"`   |             |
+| `"AKTIV"`        |             |
+| `"ABGELEHNT"`    |             |
+| `"WIDERRUFEN"`   |             |
+| `"STORNIERT"`    |             |
+| `"GEKUENDIGT"`   |             |
+| `"BEENDET"`      |             |
 
 ## vertragsende
 

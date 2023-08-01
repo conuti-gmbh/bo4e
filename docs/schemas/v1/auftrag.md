@@ -6,17 +6,17 @@
 
 | Property                                                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                           |
 | :------------------------------------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                         | `array`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                            |
+| [boTyp](#botyp)                                         | `string` | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                            |
 | [versionStruktur](#versionstruktur)                     | `string` | Required | cannot be null | [Untitled schema](auftrag-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/versionStruktur")                     |
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                 | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/ausfuehrungsdatum")                 |
 | [fertigstellungsdatum](#fertigstellungsdatum)           | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-fertigstellungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/fertigstellungsdatum")           |
 | [startdatum](#startdatum)                               | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/startdatum")                               |
-| [sparte](#sparte)                                       | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                         |
+| [sparte](#sparte)                                       | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                         |
 | [lieferanschrift](#lieferanschrift)                     | `object` | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/lieferanschrift")                                               |
 | [marktlokationsId](#marktlokationsid)                   | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-marktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/marktlokationsId")                   |
 | [mindestpreis](#mindestpreis)                           | `object` | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Preis.schema.json#/properties/mindestpreis")                                                      |
 | [hoechstpreis](#hoechstpreis)                           | `object` | Optional | cannot be null | [Untitled schema](preis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Preis.schema.json#/properties/hoechstpreis")                                                      |
-| [energierichtung](#energierichtung)                     | `array`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                              |
+| [energierichtung](#energierichtung)                     | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                              |
 | [berechnungspreis](#berechnungspreis)                   | `number` | Optional | cannot be null | [Untitled schema](auftrag-properties-berechnungspreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/berechnungspreis")                   |
 | [summeGesamt](#summegesamt)                             | `number` | Optional | cannot be null | [Untitled schema](auftrag-properties-summegesamt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/summeGesamt")                             |
 | [verschobenerAbmeldetermin](#verschobenerabmeldetermin) | `string` | Optional | cannot be null | [Untitled schema](auftrag-properties-verschobenerabmeldetermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Auftrag.schema.json#/properties/verschobenerAbmeldetermin") |
@@ -32,7 +32,7 @@
 
 *   is required
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -40,7 +40,46 @@
 
 ### boTyp Type
 
-`string[]`
+`string`
+
+### boTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                           | Explanation |
+| :------------------------------ | :---------- |
+| `"ANSPRECHPARTNER"`             |             |
+| `"AVIS"`                        |             |
+| `"ENERGIEMENGE"`                |             |
+| `"GESCHAEFTSOBJEKT"`            |             |
+| `"GESCHAEFTSPARTNER"`           |             |
+| `"MARKTLOKATION"`               |             |
+| `"MARKTTEILNEHMER"`             |             |
+| `"MESSLOKATION"`                |             |
+| `"ZAEHLER"`                     |             |
+| `"KOSTEN"`                      |             |
+| `"TARIF"`                       |             |
+| `"PREISBLATT"`                  |             |
+| `"PREISBLATTNETZNUTZUNG"`       |             |
+| `"PREISBLATTMESSUNG"`           |             |
+| `"PREISBLATTUMLAGEN"`           |             |
+| `"PREISBLATTDIENSTLEISTUNG"`    |             |
+| `"PREISBLATTKONZESSIONSABGABE"` |             |
+| `"ZEITREIHE"`                   |             |
+| `"LASTGANG"`                    |             |
+| `"HANDELSUNSTIMMIGKEIT"`        |             |
+| `"ANFRAGE"`                     |             |
+| `"AUFTRAG"`                     |             |
+| `"STATUSMITTEILUNG"`            |             |
+| `"BERECHNUNGSFORMEL"`           |             |
+| `"RECHNUNG"`                    |             |
+| `"BILANZIERUNG"`                |             |
+| `"NETZNUTZUNGSVERTRAG"`         |             |
+| `"MESSSTELLENBETRIEBSVERTRAG"`  |             |
+| `"ENERGIELIEFERVERTRAG"`        |             |
+| `"SPERRAUFTRAG"`                |             |
+| `"ANGEBOT"`                     |             |
+| `"TRANCHE"`                     |             |
 
 ## versionStruktur
 
@@ -134,7 +173,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -142,7 +181,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## lieferanschrift
 
@@ -224,7 +276,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -232,7 +284,16 @@
 
 ### energierichtung Type
 
-`string[]`
+`string`
+
+### energierichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
 
 ## berechnungspreis
 

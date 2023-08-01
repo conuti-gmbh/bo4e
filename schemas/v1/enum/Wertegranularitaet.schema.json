@@ -1,14 +1,11 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Wertegranularitaet.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "JAEHRLICH",
-      "HALBJAEHRLICH",
-      "QUARTALSWEISE",
-      "MONATLICH"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "JAEHRLICH",
+    "HALBJAEHRLICH",
+    "QUARTALSWEISE",
+    "MONATLICH"
+  ]
 }

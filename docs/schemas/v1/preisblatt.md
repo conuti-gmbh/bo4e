@@ -10,8 +10,8 @@
 | [versionStruktur](#versionstruktur)       | `string` | Required | cannot be null | [Untitled schema](preisblatt-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Preisblatt.schema.json#/properties/versionStruktur")       |
 | [bezeichnung](#bezeichnung)               | `string` | Optional | cannot be null | [Untitled schema](preisblatt-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Preisblatt.schema.json#/properties/bezeichnung")               |
 | [gueltigkeit](#gueltigkeit)               | `object` | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/gueltigkeit")                                         |
-| [preisstatus](#preisstatus)               | `array`  | Optional | cannot be null | [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")                                  |
-| [sparte](#sparte)                         | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                 |
+| [preisstatus](#preisstatus)               | `string` | Optional | cannot be null | [Untitled schema](preisstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Preisstatus.schema.json#/properties/preisstatus")                                  |
+| [sparte](#sparte)                         | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                 |
 | [bilanzierungsdatum](#bilanzierungsdatum) | `string` | Optional | cannot be null | [Untitled schema](preisblatt-properties-bilanzierungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Preisblatt.schema.json#/properties/bilanzierungsdatum") |
 | [regelzone](#regelzone)                   | `string` | Optional | cannot be null | [Untitled schema](preisblatt-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Preisblatt.schema.json#/properties/regelzone")                   |
 | [preispositionen](#preispositionen)       | `array`  | Optional | cannot be null | [Untitled schema](preisblatt-properties-preispositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Preisblatt.schema.json#/properties/preispositionen")       |
@@ -96,7 +96,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -104,7 +104,16 @@
 
 ### preisstatus Type
 
-`string[]`
+`string`
+
+### preisstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"VORLAEUFIG"` |             |
+| `"ENDGUELTIG"` |             |
 
 ## sparte
 
@@ -114,7 +123,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -122,7 +131,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## bilanzierungsdatum
 

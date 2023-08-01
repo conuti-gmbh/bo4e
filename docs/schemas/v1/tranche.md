@@ -9,36 +9,36 @@
 | [boTyp](#botyp)                                                   | `string` | Required | cannot be null | [Untitled schema](tranche-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/boTyp")                                                   |
 | [versionStruktur](#versionstruktur)                               | `string` | Required | cannot be null | [Untitled schema](tranche-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/versionStruktur")                               |
 | [tranchenId](#tranchenid)                                         | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-tranchenid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/tranchenId")                                         |
-| [sparte](#sparte)                                                 | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                   |
-| [energierichtung](#energierichtung)                               | `array`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                        |
-| [bilanzierungsmethode](#bilanzierungsmethode)                     | `array`  | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                         |
-| [verbrauchsart](#verbrauchsart)                                   | `array`  | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                              |
+| [sparte](#sparte)                                                 | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                   |
+| [energierichtung](#energierichtung)                               | `string` | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                        |
+| [bilanzierungsmethode](#bilanzierungsmethode)                     | `string` | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                         |
+| [verbrauchsart](#verbrauchsart)                                   | `string` | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                              |
 | [unterbrechbar](#unterbrechbar)                                   | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-unterbrechbar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/unterbrechbar")                                   |
-| [netzebene](#netzebene)                                           | `array`  | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                          |
+| [netzebene](#netzebene)                                           | `string` | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebene")                                                          |
 | [netzbetreiberCodeNr](#netzbetreibercodenr)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzbetreibercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzbetreiberCodeNr")                       |
-| [gebietTyp](#gebiettyp)                                           | `array`  | Optional | cannot be null | [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")                                                          |
+| [gebietTyp](#gebiettyp)                                           | `string` | Optional | cannot be null | [Untitled schema](gebiettyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gebiettyp.schema.json#/properties/gebietTyp")                                                          |
 | [netzgebietNr](#netzgebietnr)                                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-netzgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/netzgebietNr")                                     |
 | [bilanzierungsgebiet](#bilanzierungsgebiet)                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzierungsgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzierungsgebiet")                       |
 | [grundversorgerCodeNr](#grundversorgercodenr)                     | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-grundversorgercodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/grundversorgerCodeNr")                     |
-| [gasqualitaet](#gasqualitaet)                                     | `array`  | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                 |
+| [gasqualitaet](#gasqualitaet)                                     | `string` | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                 |
 | [endkunde](#endkunde)                                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/endkunde")                                             |
 | [lokationsadresse](#lokationsadresse)                             | `object` | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/lokationsadresse")                                                        |
 | [katasterinformation](#katasterinformation)                       | `object` | Optional | cannot be null | [Untitled schema](katasteradresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Katasteradresse.schema.json#/properties/katasterinformation")                                     |
 | [regelzone](#regelzone)                                           | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-regelzone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/regelzone")                                           |
 | [marktgebiet](#marktgebiet)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-marktgebiet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktgebiet")                                       |
-| [zeitreihentyp](#zeitreihentyp)                                   | `array`  | Optional | cannot be null | [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                              |
-| [messtechnischeEinordnung](#messtechnischeeinordnung)             | `array`  | Optional | cannot be null | [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")             |
-| [sperrstatus](#sperrstatus)                                       | `array`  | Optional | cannot be null | [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")                                                    |
+| [zeitreihentyp](#zeitreihentyp)                                   | `string` | Optional | cannot be null | [Untitled schema](zeitreihentyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeitreihentyp.schema.json#/properties/zeitreihentyp")                                              |
+| [messtechnischeEinordnung](#messtechnischeeinordnung)             | `string` | Optional | cannot be null | [Untitled schema](messtechnischeeinordnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/MesstechnischeEinordnung.schema.json#/properties/messtechnischeEinordnung")             |
+| [sperrstatus](#sperrstatus)                                       | `string` | Optional | cannot be null | [Untitled schema](sperrstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sperrstatus.schema.json#/properties/sperrstatus")                                                    |
 | [referenzMarktlokationsId](#referenzmarktlokationsid)             | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzMarktlokationsId")             |
-| [versorgungsart](#versorgungsart)                                 | `array`  | Optional | cannot be null | [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")                                           |
-| [fernsteuerbarkeit](#fernsteuerbarkeit)                           | `array`  | Optional | cannot be null | [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")                                  |
-| [verguetungEmpfaenger](#verguetungempfaenger)                     | `array`  | Optional | cannot be null | [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")                         |
+| [versorgungsart](#versorgungsart)                                 | `string` | Optional | cannot be null | [Untitled schema](versorgungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Versorgungsart.schema.json#/properties/versorgungsart")                                           |
+| [fernsteuerbarkeit](#fernsteuerbarkeit)                           | `string` | Optional | cannot be null | [Untitled schema](fernsteuerbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Fernsteuerbarkeit.schema.json#/properties/fernsteuerbarkeit")                                  |
+| [verguetungEmpfaenger](#verguetungempfaenger)                     | `string` | Optional | cannot be null | [Untitled schema](verguetungempfaenger.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/VerguetungEmpfaenger.schema.json#/properties/verguetungEmpfaenger")                         |
 | [foerderungsLand](#foerderungsland)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-foerderungsland.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/foerderungsLand")                               |
-| [statusErzeugendeMalo](#statuserzeugendemalo)                     | `array`  | Optional | cannot be null | [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")       |
+| [statusErzeugendeMalo](#statuserzeugendemalo)                     | `string` | Optional | cannot be null | [Untitled schema](statuserzeugendemarktlokation.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/StatusErzeugendeMarktlokation.schema.json#/properties/statusErzeugendeMalo")       |
 | [referenzTranche](#referenztranche)                               | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-referenztranche.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/referenzTranche")                               |
 | [aufteilungsmenge](#aufteilungsmenge)                             | `object` | Optional | cannot be null | [Untitled schema](menge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/aufteilungsmenge")                                                            |
 | [bilanzkreis](#bilanzkreis)                                       | `string` | Optional | cannot be null | [Untitled schema](tranche-properties-bilanzkreis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/bilanzkreis")                                       |
-| [bildungTranchengroesse](#bildungtranchengroesse)                 | `array`  | Optional | cannot be null | [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")                   |
+| [bildungTranchengroesse](#bildungtranchengroesse)                 | `string` | Optional | cannot be null | [Untitled schema](bildungtranchengroesse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BildungTranchengroesse.schema.json#/properties/bildungTranchengroesse")                   |
 | [marktrollen](#marktrollen)                                       | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-marktrollen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/marktrollen")                                       |
 | [zaehlwerke](#zaehlwerke)                                         | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerke")                                         |
 | [zaehlwerkeBeteiligteMarktrolle](#zaehlwerkebeteiligtemarktrolle) | `array`  | Optional | cannot be null | [Untitled schema](tranche-properties-zaehlwerkebeteiligtemarktrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Tranche.schema.json#/properties/zaehlwerkeBeteiligteMarktrolle") |
@@ -109,7 +109,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -117,7 +117,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## energierichtung
 
@@ -127,7 +140,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -135,7 +148,16 @@
 
 ### energierichtung Type
 
-`string[]`
+`string`
+
+### energierichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
 
 ## bilanzierungsmethode
 
@@ -145,7 +167,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -153,7 +175,20 @@
 
 ### bilanzierungsmethode Type
 
-`string[]`
+`string`
+
+### bilanzierungsmethode Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"RLM"`           |             |
+| `"SLP"`           |             |
+| `"TLP_GEMEINSAM"` |             |
+| `"TLP_GETRENNT"`  |             |
+| `"PAUSCHAL"`      |             |
+| `"IMS"`           |             |
 
 ## verbrauchsart
 
@@ -163,7 +198,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -171,7 +206,19 @@
 
 ### verbrauchsart Type
 
-`string[]`
+`string`
+
+### verbrauchsart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"KL"`   |             |
+| `"W"`    |             |
+| `"EMOB"` |             |
+| `"SB"`   |             |
+| `"SW"`   |             |
 
 ## unterbrechbar
 
@@ -199,7 +246,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -207,7 +254,24 @@
 
 ### netzebene Type
 
-`string[]`
+`string`
+
+### netzebene Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value            | Explanation |
+| :--------------- | :---------- |
+| `"NSP"`          |             |
+| `"MSP"`          |             |
+| `"HSP"`          |             |
+| `"HSS"`          |             |
+| `"MSP_NSP_UMSP"` |             |
+| `"HSP_MSP_UMSP"` |             |
+| `"HSS_HSP_UMSP"` |             |
+| `"HD"`           |             |
+| `"MD"`           |             |
+| `"ND"`           |             |
 
 ## netzbetreiberCodeNr
 
@@ -235,7 +299,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -243,7 +307,23 @@
 
 ### gebietTyp Type
 
-`string[]`
+`string`
+
+### gebietTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                      | Explanation |
+| :------------------------- | :---------- |
+| `"REGELZONE"`              |             |
+| `"MARKTGEBIET"`            |             |
+| `"BILANZIERUNGSGEBIET"`    |             |
+| `"VERTEILNETZ"`            |             |
+| `"TRANSPORTNETZ"`          |             |
+| `"REGIONALNETZ"`           |             |
+| `"AREALNETZ"`              |             |
+| `"GRUNDVERSORGUNGSGEBIET"` |             |
+| `"VERSORGUNGSGEBIET"`      |             |
 
 ## netzgebietNr
 
@@ -307,7 +387,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -315,7 +395,16 @@
 
 ### gasqualitaet Type
 
-`string[]`
+`string`
+
+### gasqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"H_GAS"` |             |
+| `"L_GAS"` |             |
 
 ## endkunde
 
@@ -415,7 +504,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -423,7 +512,23 @@
 
 ### zeitreihentyp Type
 
-`string[]`
+`string`
+
+### zeitreihentyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value       | Explanation |
+| :---------- | :---------- |
+| `"EGS"`     |             |
+| `"LGS"`     |             |
+| `"NZR"`     |             |
+| `"SES"`     |             |
+| `"SLS"`     |             |
+| `"TES"`     |             |
+| `"TLS"`     |             |
+| `"SLS_TLS"` |             |
+| `"SES_TES"` |             |
 
 ## messtechnischeEinordnung
 
@@ -433,7 +538,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -441,7 +546,17 @@
 
 ### messtechnischeEinordnung Type
 
-`string[]`
+`string`
+
+### messtechnischeEinordnung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"IMS"`           |             |
+| `"KME_MME"`       |             |
+| `"KEINE_MESSUNG"` |             |
 
 ## sperrstatus
 
@@ -451,7 +566,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -459,7 +574,16 @@
 
 ### sperrstatus Type
 
-`string[]`
+`string`
+
+### sperrstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value         | Explanation |
+| :------------ | :---------- |
+| `"ENTSPERRT"` |             |
+| `"GESPERRT"`  |             |
 
 ## referenzMarktlokationsId
 
@@ -487,7 +611,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -495,7 +619,17 @@
 
 ### versorgungsart Type
 
-`string[]`
+`string`
+
+### versorgungsart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                 | Explanation |
+| :-------------------- | :---------- |
+| `"ERSATZVERSORGUNG"`  |             |
+| `"GRUNDVERSORGUNG"`   |             |
+| `"ERSATZBELIEFERUNG"` |             |
 
 ## fernsteuerbarkeit
 
@@ -505,7 +639,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -513,7 +647,17 @@
 
 ### fernsteuerbarkeit Type
 
-`string[]`
+`string`
+
+### fernsteuerbarkeit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                             | Explanation |
+| :-------------------------------- | :---------- |
+| `"TECHNISCH_NICHT_FERNSTEUERBAR"` |             |
+| `"TECHNISCH_FERNSTEUERBAR"`       |             |
+| `"DURCH_LF_FERNSTEUERBAR"`        |             |
 
 ## verguetungEmpfaenger
 
@@ -523,7 +667,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -531,7 +675,16 @@
 
 ### verguetungEmpfaenger Type
 
-`string[]`
+`string`
+
+### verguetungEmpfaenger Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value         | Explanation |
+| :------------ | :---------- |
+| `"KUNDE"`     |             |
+| `"LIEFERANT"` |             |
 
 ## foerderungsLand
 
@@ -559,7 +712,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -567,7 +720,20 @@
 
 ### statusErzeugendeMalo Type
 
-`string[]`
+`string`
+
+### statusErzeugendeMalo Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                                  | Explanation |
+| :----------------------------------------------------- | :---------- |
+| `"EINSPEISEVERGUETUNG_PARAGRAPH_37"`                   |             |
+| `"GEFOERDERTE_DIREKTVERMARKTUNG"`                      |             |
+| `"SONSTIGE_DIREKTVERMARKTUNG"`                         |             |
+| `"VERMARKTUNG_OHNE_GESETZL_VERGUETUNG"`                |             |
+| `"KWKG_VERGUETUNG"`                                    |             |
+| `"EINSPEISEVERGUETUNG_PARAGRAPH_38_AUSFALLVERGUETUNG"` |             |
 
 ## referenzTranche
 
@@ -631,7 +797,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -639,7 +805,16 @@
 
 ### bildungTranchengroesse Type
 
-`string[]`
+`string`
+
+### bildungTranchengroesse Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                 | Explanation |
+| :-------------------- | :---------- |
+| `"PROZENTUAL"`        |             |
+| `"AUFTEILUNGSFAKTOR"` |             |
 
 ## marktrollen
 
@@ -685,7 +860,7 @@
 
 *   is optional
 
-*   Type: `string[][]`
+*   Type: `string[]`
 
 *   cannot be null
 
@@ -693,7 +868,7 @@
 
 ### zaehlwerkeBeteiligteMarktrolle Type
 
-`string[][]`
+`string[]`
 
 ## verbrauchsmenge
 

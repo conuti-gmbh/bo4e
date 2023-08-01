@@ -1,22 +1,19 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Kommunikationsrolle.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "DATENAUSTAUSCH",
-      "RAHMENVERTRAEGE",
-      "KUENDIGUNGSPROZESSE",
-      "WECHSELPROZESSE",
-      "STAMMDATENPROZESSE",
-      "EINSPEISEPROZESSE",
-      "ABRECHNUNGSPROZESSE",
-      "MMMA_PROZESSE",
-      "BEWEGUNGSDATEN",
-      "ENT_SPERR_PROZESSE",
-      "BILANZIERUNGSPROZESSE",
-      "NETZANSCHLUSS_ANLAGEN"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "DATENAUSTAUSCH",
+    "RAHMENVERTRAEGE",
+    "KUENDIGUNGSPROZESSE",
+    "WECHSELPROZESSE",
+    "STAMMDATENPROZESSE",
+    "EINSPEISEPROZESSE",
+    "ABRECHNUNGSPROZESSE",
+    "MMMA_PROZESSE",
+    "BEWEGUNGSDATEN",
+    "ENT_SPERR_PROZESSE",
+    "BILANZIERUNGSPROZESSE",
+    "NETZANSCHLUSS_ANLAGEN"
+  ]
 }

@@ -6,11 +6,11 @@
 
 | Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                                  |
 | :------------------------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [zeiteinheit](#zeiteinheit)                 | `array`  | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeiteinheit")                                 |
+| [zeiteinheit](#zeiteinheit)                 | `string` | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeiteinheit.schema.json#/properties/zeiteinheit")                                 |
 | [dauer](#dauer)                             | `number` | Optional | cannot be null | [Untitled schema](zeitraum-properties-dauer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/dauer")                             |
 | [startdatum](#startdatum)                   | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-startdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/startdatum")                   |
 | [enddatum](#enddatum)                       | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/enddatum")                       |
-| [einheit](#einheit)                         | `array`  | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeiteinheit.schema.json#/properties/einheit")                                     |
+| [einheit](#einheit)                         | `string` | Optional | cannot be null | [Untitled schema](zeiteinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Zeiteinheit.schema.json#/properties/einheit")                                     |
 | [ableseZeitraum](#ablesezeitraum)           | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-ablesezeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/ableseZeitraum")           |
 | [abrechnungsZeitraum](#abrechnungszeitraum) | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-abrechnungszeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/abrechnungsZeitraum") |
 | [zeitraumText](#zeitraumtext)               | `string` | Optional | cannot be null | [Untitled schema](zeitraum-properties-zeitraumtext.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/zeitraumText")               |
@@ -23,7 +23,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -31,7 +31,24 @@
 
 ### zeiteinheit Type
 
-`string[]`
+`string`
+
+### zeiteinheit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"SEKUNDE"`        |             |
+| `"MINUTE"`         |             |
+| `"STUNDE"`         |             |
+| `"VIERTEL_STUNDE"` |             |
+| `"TAG"`            |             |
+| `"WOCHE"`          |             |
+| `"MONAT"`          |             |
+| `"QUARTAL"`        |             |
+| `"HALBJAHR"`       |             |
+| `"JAHR"`           |             |
 
 ## dauer
 
@@ -95,7 +112,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -103,7 +120,24 @@
 
 ### einheit Type
 
-`string[]`
+`string`
+
+### einheit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"SEKUNDE"`        |             |
+| `"MINUTE"`         |             |
+| `"STUNDE"`         |             |
+| `"VIERTEL_STUNDE"` |             |
+| `"TAG"`            |             |
+| `"WOCHE"`          |             |
+| `"MONAT"`          |             |
+| `"QUARTAL"`        |             |
+| `"HALBJAHR"`       |             |
+| `"JAHR"`           |             |
 
 ## ableseZeitraum
 

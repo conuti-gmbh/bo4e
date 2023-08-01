@@ -1,19 +1,16 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/AbgabeArt.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "KAS",
-      "SA",
-      "SAS",
-      "TA",
-      "TAS",
-      "TK",
-      "TKS",
-      "TS",
-      "TSS"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "KAS",
+    "SA",
+    "SAS",
+    "TA",
+    "TAS",
+    "TK",
+    "TKS",
+    "TS",
+    "TSS"
+  ]
 }

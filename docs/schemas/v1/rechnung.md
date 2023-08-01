@@ -11,10 +11,10 @@
 | [istSelbstausgestellt](#istselbstausgestellt)                       | `boolean` | Optional | cannot be null | [Untitled schema](rechnung-properties-istselbstausgestellt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/istSelbstausgestellt")             |
 | [bearbeitungsdatum](#bearbeitungsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-bearbeitungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/bearbeitungsdatum")                   |
 | [rechnungsdatum](#rechnungsdatum)                                   | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-rechnungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungsdatum")                         |
-| [rechnungsstatus](#rechnungsstatus)                                 | `array`   | Optional | cannot be null | [Untitled schema](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")                                  |
+| [rechnungsstatus](#rechnungsstatus)                                 | `string`  | Optional | cannot be null | [Untitled schema](rechnungsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Rechnungsstatus.schema.json#/properties/rechnungsstatus")                                  |
 | [vorlaeufigerAbrechnungszeitraum](#vorlaeufigerabrechnungszeitraum) | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/vorlaeufigerAbrechnungszeitraum")                                 |
 | [rechnungsperiode](#rechnungsperiode)                               | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/rechnungsperiode")                                                |
-| [rechnungstyp](#rechnungstyp)                                       | `array`   | Optional | cannot be null | [Untitled schema](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")                                           |
+| [rechnungstyp](#rechnungstyp)                                       | `string`  | Optional | cannot be null | [Untitled schema](rechnungstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Rechnungstyp.schema.json#/properties/rechnungstyp")                                           |
 | [istReverseCharge](#istreversecharge)                               | `boolean` | Optional | cannot be null | [Untitled schema](rechnung-properties-istreversecharge.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/istReverseCharge")                     |
 | [gesamtbrutto](#gesamtbrutto)                                       | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/gesamtbrutto")                                                        |
 | [zuZahlen](#zuzahlen)                                               | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                            |
@@ -27,7 +27,7 @@
 | [vorausgezahlt](#vorausgezahlt)                                     | `object`  | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/vorausgezahlt")                                                       |
 | [gemeinderabatt](#gemeinderabatt)                                   | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                      |
 | [ausfuehrungsdatum](#ausfuehrungsdatum)                             | `string`  | Optional | cannot be null | [Untitled schema](rechnung-properties-ausfuehrungsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/ausfuehrungsdatum")                   |
-| [sonderrechnungsart](#sonderrechnungsart)                           | `array`   | Optional | cannot be null | [Untitled schema](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                         |
+| [sonderrechnungsart](#sonderrechnungsart)                           | `string`  | Optional | cannot be null | [Untitled schema](sonderrechnungsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/SonderrechnungsArt.schema.json#/properties/sonderrechnungsart")                         |
 | [steuerbetraege](#steuerbetraege)                                   | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-steuerbetraege.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/steuerbetraege")                         |
 | [rechnungspositionen](#rechnungspositionen)                         | `array`   | Optional | cannot be null | [Untitled schema](rechnung-properties-rechnungspositionen.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Rechnung.schema.json#/properties/rechnungspositionen")               |
 
@@ -129,7 +129,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -137,7 +137,16 @@
 
 ### rechnungsstatus Type
 
-`string[]`
+`string`
+
+### rechnungsstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value        | Explanation |
+| :----------- | :---------- |
+| `"DUPLIKAT"` |             |
+| `"ORIGINAL"` |             |
 
 ## vorlaeufigerAbrechnungszeitraum
 
@@ -183,7 +192,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -191,7 +200,29 @@
 
 ### rechnungstyp Type
 
-`string[]`
+`string`
+
+### rechnungstyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                          | Explanation |
+| :----------------------------- | :---------- |
+| `"ABSCHLUSSRECHNUNG"`          |             |
+| `"ABSCHLAGSRECHNUNG"`          |             |
+| `"TURNUSRECHNUNG"`             |             |
+| `"MONATSRECHNUNG"`             |             |
+| `"WIMRECHNUNG"`                |             |
+| `"ZWISCHENRECHNUNG"`           |             |
+| `"INTEGRIERTE_13TE_RECHNUNG"`  |             |
+| `"ZUSAETZLICHE_13TE_RECHNUNG"` |             |
+| `"MEHRMINDERMENGENRECHNUNG"`   |             |
+| `"MSBRECHNUNG"`                |             |
+| `"KAPAZITAETSRECHNUNG"`        |             |
+| `"SPERRUNG_INBETRIEBNAHME"`    |             |
+| `"VERZUGSKOSTEN"`              |             |
+| `"BLINDARBEIT"`                |             |
+| `"SONDERRECHNUNG"`             |             |
 
 ## istReverseCharge
 
@@ -417,7 +448,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -425,7 +456,22 @@
 
 ### sonderrechnungsart Type
 
-`string[]`
+`string`
+
+### sonderrechnungsart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                             | Explanation |
+| :-------------------------------- | :---------- |
+| `"KONZESSIONSABGABE_TESTAT"`      |             |
+| `"INDIVIDUELL_ATYPISCH"`          |             |
+| `"INDIVIDUELL_SINGULAER"`         |             |
+| `"KWKG_UMLAGE"`                   |             |
+| `"OFFSHORE_UMLAGE"`               |             |
+| `"P19_STROM_NEV_UMLAGE"`          |             |
+| `"P18_ABLAV"`                     |             |
+| `"KONZESSIONSABGABE_WECHSEL_RLM"` |             |
 
 ## steuerbetraege
 

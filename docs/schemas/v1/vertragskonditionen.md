@@ -6,12 +6,12 @@
 
 | Property                                                                                | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                                    |
 | :-------------------------------------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [netznutzungszahler](#netznutzungszahler)                                               | `array`   | Optional | cannot be null | [Untitled schema](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")                                                                              |
-| [netznutzungsvertrag](#netznutzungsvertrag)                                             | `array`   | Optional | cannot be null | [Untitled schema](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")                                                                           |
+| [netznutzungszahler](#netznutzungszahler)                                               | `string`  | Optional | cannot be null | [Untitled schema](netznutzungszahler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungszahler.schema.json#/properties/netznutzungszahler")                                                                              |
+| [netznutzungsvertrag](#netznutzungsvertrag)                                             | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsvertrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsvertrag.schema.json#/properties/netznutzungsvertrag")                                                                           |
 | [netznutzungsabrechnung](#netznutzungsabrechnung)                                       | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/netznutzungsabrechnung")                                                                                               |
 | [beinhaltetSingulaerGenutzteBetriebsmittel](#beinhaltetsingulaergenutztebetriebsmittel) | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-beinhaltetsingulaergenutztebetriebsmittel.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/beinhaltetSingulaerGenutzteBetriebsmittel") |
-| [netznutzungsabrechnungsgrundlage](#netznutzungsabrechnungsgrundlage)                   | `array`   | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")                                    |
-| [netznutzungsabrechnungsvariante](#netznutzungsabrechnungsvariante)                     | `array`   | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")                                       |
+| [netznutzungsabrechnungsgrundlage](#netznutzungsabrechnungsgrundlage)                   | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsgrundlage.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsabrechnungsgrundlage.schema.json#/properties/netznutzungsabrechnungsgrundlage")                                    |
+| [netznutzungsabrechnungsvariante](#netznutzungsabrechnungsvariante)                     | `string`  | Optional | cannot be null | [Untitled schema](netznutzungsabrechnungsvariante.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netznutzungsabrechnungsvariante.schema.json#/properties/netznutzungsabrechnungsvariante")                                       |
 | [haushaltskunde](#haushaltskunde)                                                       | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-haushaltskunde.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/haushaltskunde")                                                       |
 | [abrechnungUeberNna](#abrechnunguebernna)                                               | `boolean` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-abrechnunguebernna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungUeberNna")                                               |
 | [gemeinderabatt](#gemeinderabatt)                                                       | `object`  | Optional | cannot be null | [Untitled schema](gemeinderabatt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Gemeinderabatt.schema.json#/properties/gemeinderabatt")                                                                                           |
@@ -20,7 +20,7 @@
 | [abrechnungsintervall](#abrechnungsintervall)                                           | `integer` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-abrechnungsintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/abrechnungsintervall")                                           |
 | [netznutzungsabrechnungIntervall](#netznutzungsabrechnungintervall)                     | `integer` | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-netznutzungsabrechnungintervall.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/netznutzungsabrechnungIntervall")                     |
 | [geplanteTurnusablesung](#geplanteturnusablesung)                                       | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/geplanteTurnusablesung")                                                                                               |
-| [beauftragungMsb](#beauftragungmsb)                                                     | `array`   | Optional | cannot be null | [Untitled schema](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")                                                                                       |
+| [beauftragungMsb](#beauftragungmsb)                                                     | `string`  | Optional | cannot be null | [Untitled schema](beauftragungmsb.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BeauftragungMsb.schema.json#/properties/beauftragungMsb")                                                                                       |
 | [kuendigungsfrist](#kuendigungsfrist)                                                   | `object`  | Optional | cannot be null | [Untitled schema](zeitraum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zeitraum.schema.json#/properties/kuendigungsfrist")                                                                                                     |
 | [kuendigungstermin](#kuendigungstermin)                                                 | `string`  | Optional | cannot be null | [Untitled schema](vertragskonditionen-properties-kuendigungstermin.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Vertragskonditionen.schema.json#/properties/kuendigungstermin")                                                 |
 
@@ -32,7 +32,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -40,7 +40,16 @@
 
 ### netznutzungszahler Type
 
-`string[]`
+`string`
+
+### netznutzungszahler Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value         | Explanation |
+| :------------ | :---------- |
+| `"KUNDE"`     |             |
+| `"LIEFERANT"` |             |
 
 ## netznutzungsvertrag
 
@@ -50,7 +59,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -58,7 +67,16 @@
 
 ### netznutzungsvertrag Type
 
-`string[]`
+`string`
+
+### netznutzungsvertrag Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"KUNDEN_NB"`      |             |
+| `"LIEFERANTEN_NB"` |             |
 
 ## netznutzungsabrechnung
 
@@ -104,7 +122,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -112,7 +130,16 @@
 
 ### netznutzungsabrechnungsgrundlage Type
 
-`string[]`
+`string`
+
+### netznutzungsabrechnungsgrundlage Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                     | Explanation |
+| :------------------------ | :---------- |
+| `"LIEFERSCHEIN"`          |             |
+| `"ABWEICHENDE_GRUNDLAGE"` |             |
 
 ## netznutzungsabrechnungsvariante
 
@@ -122,7 +149,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -130,7 +157,16 @@
 
 ### netznutzungsabrechnungsvariante Type
 
-`string[]`
+`string`
+
+### netznutzungsabrechnungsvariante Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                           | Explanation |
+| :------------------------------ | :---------- |
+| `"ARBEITSPREIS_GRUNDPREIS"`     |             |
+| `"ARBEITSPREIS_LEISTUNGSPREIS"` |             |
 
 ## haushaltskunde
 
@@ -284,7 +320,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -292,7 +328,16 @@
 
 ### beauftragungMsb Type
 
-`string[]`
+`string`
+
+### beauftragungMsb Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                      | Explanation |
+| :------------------------- | :---------- |
+| `"VERTRAG_AN_MSB"`         |             |
+| `"VERTRAGSBEENDIGUNG_MSB"` |             |
 
 ## kuendigungsfrist
 

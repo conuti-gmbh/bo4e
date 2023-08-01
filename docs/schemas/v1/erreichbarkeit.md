@@ -6,7 +6,7 @@
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                |
 | :-------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [verfuegbarkeit](#verfuegbarkeit) | `array`  | Optional | cannot be null | [Untitled schema](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")      |
+| [verfuegbarkeit](#verfuegbarkeit) | `string` | Optional | cannot be null | [Untitled schema](verfuegbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verfuegbarkeit.schema.json#/properties/verfuegbarkeit")      |
 | [zeit](#zeit)                     | `string` | Optional | cannot be null | [Untitled schema](erreichbarkeit-properties-zeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Erreichbarkeit.schema.json#/properties/zeit") |
 
 ## verfuegbarkeit
@@ -17,7 +17,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -25,7 +25,20 @@
 
 ### verfuegbarkeit Type
 
-`string[]`
+`string`
+
+### verfuegbarkeit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"MONTAG"`     |             |
+| `"DIENSTAG"`   |             |
+| `"MITTWOCH"`   |             |
+| `"DONNERSTAG"` |             |
+| `"FREITAG"`    |             |
+| `"PAUSE"`      |             |
 
 ## zeit
 

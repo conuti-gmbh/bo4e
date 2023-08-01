@@ -6,7 +6,7 @@
 
 | Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                   |
 | :---------------------------------------------------------- | :-------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                             | `array`   | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                    |
+| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                    |
 | [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](geschaeftspartner-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/versionStruktur")                         |
 | [anrede](#anrede)                                           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/anrede")                                           |
 | [name1](#name1)                                             | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartner-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/name1")                                             |
@@ -34,7 +34,7 @@
 
 *   is required
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -42,7 +42,46 @@
 
 ### boTyp Type
 
-`string[]`
+`string`
+
+### boTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                           | Explanation |
+| :------------------------------ | :---------- |
+| `"ANSPRECHPARTNER"`             |             |
+| `"AVIS"`                        |             |
+| `"ENERGIEMENGE"`                |             |
+| `"GESCHAEFTSOBJEKT"`            |             |
+| `"GESCHAEFTSPARTNER"`           |             |
+| `"MARKTLOKATION"`               |             |
+| `"MARKTTEILNEHMER"`             |             |
+| `"MESSLOKATION"`                |             |
+| `"ZAEHLER"`                     |             |
+| `"KOSTEN"`                      |             |
+| `"TARIF"`                       |             |
+| `"PREISBLATT"`                  |             |
+| `"PREISBLATTNETZNUTZUNG"`       |             |
+| `"PREISBLATTMESSUNG"`           |             |
+| `"PREISBLATTUMLAGEN"`           |             |
+| `"PREISBLATTDIENSTLEISTUNG"`    |             |
+| `"PREISBLATTKONZESSIONSABGABE"` |             |
+| `"ZEITREIHE"`                   |             |
+| `"LASTGANG"`                    |             |
+| `"HANDELSUNSTIMMIGKEIT"`        |             |
+| `"ANFRAGE"`                     |             |
+| `"AUFTRAG"`                     |             |
+| `"STATUSMITTEILUNG"`            |             |
+| `"BERECHNUNGSFORMEL"`           |             |
+| `"RECHNUNG"`                    |             |
+| `"BILANZIERUNG"`                |             |
+| `"NETZNUTZUNGSVERTRAG"`         |             |
+| `"MESSSTELLENBETRIEBSVERTRAG"`  |             |
+| `"ENERGIELIEFERVERTRAG"`        |             |
+| `"SPERRAUFTRAG"`                |             |
+| `"ANGEBOT"`                     |             |
+| `"TRANCHE"`                     |             |
 
 ## versionStruktur
 
@@ -340,7 +379,7 @@
 
 *   is optional
 
-*   Type: `string[][]`
+*   Type: `string[]`
 
 *   cannot be null
 
@@ -348,7 +387,7 @@
 
 ### geschaeftspartnerrolle Type
 
-`string[][]`
+`string[]`
 
 ## kontaktweg
 
@@ -358,7 +397,7 @@
 
 *   is optional
 
-*   Type: `string[][]`
+*   Type: `string[]`
 
 *   cannot be null
 
@@ -366,4 +405,4 @@
 
 ### kontaktweg Type
 
-`string[][]`
+`string[]`

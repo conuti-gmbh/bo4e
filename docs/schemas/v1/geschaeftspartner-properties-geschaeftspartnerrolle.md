@@ -1,3 +1,3 @@
 ## geschaeftspartnerrolle Type
 
-`string[][]`
+`string[]`
