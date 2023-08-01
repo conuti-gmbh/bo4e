@@ -9,20 +9,20 @@
 | [boTyp](#botyp)                                                     | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/boTyp")                                                     |
 | [versionStruktur](#versionstruktur)                                 | `string`  | Required | cannot be null | [Untitled schema](messlokation-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/versionStruktur")                                 |
 | [messlokationsId](#messlokationsid)                                 | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationsId")                                 |
-| [sparte](#sparte)                                                   | `array`   | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                               |
-| [energierichtung](#energierichtung)                                 | `array`   | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                                    |
-| [netzebenemessung](#netzebenemessung)                               | `array`   | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")                                                               |
+| [sparte](#sparte)                                                   | `string`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                                                               |
+| [energierichtung](#energierichtung)                                 | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/energierichtung")                                                    |
+| [netzebenemessung](#netzebenemessung)                               | `string`  | Optional | cannot be null | [Untitled schema](netzebene.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Netzebene.schema.json#/properties/netzebenemessung")                                                               |
 | [messgebietNr](#messgebietnr)                                       | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-messgebietnr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messgebietNr")                                       |
 | [grundzustaendigerMSBCodeNr](#grundzustaendigermsbcodenr)           | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-grundzustaendigermsbcodenr.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/grundzustaendigerMSBCodeNr")           |
 | [messadresse](#messadresse)                                         | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/messadresse")                                                                         |
-| [bilanzierungsmethode](#bilanzierungsmethode)                       | `array`   | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                                     |
+| [bilanzierungsmethode](#bilanzierungsmethode)                       | `string`  | Optional | cannot be null | [Untitled schema](bilanzierungsmethode.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Bilanzierungsmethode.schema.json#/properties/bilanzierungsmethode")                                     |
 | [abrechnungmessstellenbetriebnna](#abrechnungmessstellenbetriebnna) | `boolean` | Optional | cannot be null | [Untitled schema](messlokation-properties-abrechnungmessstellenbetriebnna.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/abrechnungmessstellenbetriebnna") |
-| [gasqualitaet](#gasqualitaet)                                       | `array`   | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                             |
+| [gasqualitaet](#gasqualitaet)                                       | `string`  | Optional | cannot be null | [Untitled schema](gasqualitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Gasqualitaet.schema.json#/properties/gasqualitaet")                                                             |
 | [verlustfaktor](#verlustfaktor)                                     | `number`  | Optional | cannot be null | [Untitled schema](messlokation-properties-verlustfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/verlustfaktor")                                     |
-| [betriebszustand](#betriebszustand)                                 | `array`   | Optional | cannot be null | [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")                                                    |
+| [betriebszustand](#betriebszustand)                                 | `string`  | Optional | cannot be null | [Untitled schema](betriebszustand.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Betriebszustand.schema.json#/properties/betriebszustand")                                                    |
 | [ablesekartenempfaenger](#ablesekartenempfaenger)                   | `object`  | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/ablesekartenempfaenger")                                           |
 | [referenzMarktlokationsId](#referenzmarktlokationsid)               | `string`  | Optional | cannot be null | [Untitled schema](messlokation-properties-referenzmarktlokationsid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/referenzMarktlokationsId")               |
-| [verwendungsumfang](#verwendungsumfang)                             | `array`   | Optional | cannot be null | [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")                                              |
+| [verwendungsumfang](#verwendungsumfang)                             | `string`  | Optional | cannot be null | [Untitled schema](verwendungsumfang.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verwendungsumfang.schema.json#/properties/verwendungsumfang")                                              |
 | [geraete](#geraete)                                                 | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-geraete.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/geraete")                                                 |
 | [messdienstleistung](#messdienstleistung)                           | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messdienstleistung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messdienstleistung")                           |
 | [messlokationszaehler](#messlokationszaehler)                       | `array`   | Optional | cannot be null | [Untitled schema](messlokation-properties-messlokationszaehler.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Messlokation.schema.json#/properties/messlokationszaehler")                       |
@@ -91,7 +91,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -99,7 +99,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## energierichtung
 
@@ -109,7 +122,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -117,7 +130,16 @@
 
 ### energierichtung Type
 
-`string[]`
+`string`
+
+### energierichtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
 
 ## netzebenemessung
 
@@ -127,7 +149,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -135,7 +157,24 @@
 
 ### netzebenemessung Type
 
-`string[]`
+`string`
+
+### netzebenemessung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value            | Explanation |
+| :--------------- | :---------- |
+| `"NSP"`          |             |
+| `"MSP"`          |             |
+| `"HSP"`          |             |
+| `"HSS"`          |             |
+| `"MSP_NSP_UMSP"` |             |
+| `"HSP_MSP_UMSP"` |             |
+| `"HSS_HSP_UMSP"` |             |
+| `"HD"`           |             |
+| `"MD"`           |             |
+| `"ND"`           |             |
 
 ## messgebietNr
 
@@ -199,7 +238,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -207,7 +246,20 @@
 
 ### bilanzierungsmethode Type
 
-`string[]`
+`string`
+
+### bilanzierungsmethode Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"RLM"`           |             |
+| `"SLP"`           |             |
+| `"TLP_GEMEINSAM"` |             |
+| `"TLP_GETRENNT"`  |             |
+| `"PAUSCHAL"`      |             |
+| `"IMS"`           |             |
 
 ## abrechnungmessstellenbetriebnna
 
@@ -235,7 +287,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -243,7 +295,16 @@
 
 ### gasqualitaet Type
 
-`string[]`
+`string`
+
+### gasqualitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"H_GAS"` |             |
+| `"L_GAS"` |             |
 
 ## verlustfaktor
 
@@ -275,7 +336,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -283,7 +344,17 @@
 
 ### betriebszustand Type
 
-`string[]`
+`string`
+
+### betriebszustand Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                         | Explanation |
+| :---------------------------- | :---------- |
+| `"GESPERRT_NICHT_ENTSPERREN"` |             |
+| `"GESPERRT"`                  |             |
+| `"REGELBETRIEB"`              |             |
 
 ## ablesekartenempfaenger
 
@@ -329,7 +400,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -337,7 +408,16 @@
 
 ### verwendungsumfang Type
 
-`string[]`
+`string`
+
+### verwendungsumfang Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                 | Explanation |
+| :------------------------------------ | :---------- |
+| `"MESSLOKATION_PROZESSUAL_BEHANDELT"` |             |
+| `"MESSLOKATION_LOKATIONSBUENDEL"`     |             |
 
 ## geraete
 

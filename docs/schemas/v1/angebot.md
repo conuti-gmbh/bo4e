@@ -11,7 +11,7 @@
 | [angebotsnummer](#angebotsnummer)                           | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsnummer")    |
 | [anfragereferenz](#anfragereferenz)                         | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-anfragereferenz.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/anfragereferenz")  |
 | [angebotsdatum](#angebotsdatum)                             | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-angebotsdatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/angebotsdatum")      |
-| [sparte](#sparte)                                           | `array`  | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                      |
+| [sparte](#sparte)                                           | `string` | Optional | cannot be null | [Untitled schema](sparte.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Sparte.schema.json#/properties/sparte")                                      |
 | [bindefrist](#bindefrist)                                   | `string` | Optional | cannot be null | [Untitled schema](angebot-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Angebot.schema.json#/properties/bindefrist")            |
 | [angebotgeber](#angebotgeber)                               | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotgeber")            |
 | [angebotnehmer](#angebotnehmer)                             | `object` | Optional | cannot be null | [Untitled schema](geschaeftspartner.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Geschaeftspartner.schema.json#/properties/angebotnehmer")           |
@@ -121,7 +121,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -129,7 +129,20 @@
 
 ### sparte Type
 
-`string[]`
+`string`
+
+### sparte Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"STROM"`      |             |
+| `"GAS"`        |             |
+| `"FERNWAERME"` |             |
+| `"NAHWAERME"`  |             |
+| `"WASSER"`     |             |
+| `"ABWASSER"`   |             |
 
 ## bindefrist
 

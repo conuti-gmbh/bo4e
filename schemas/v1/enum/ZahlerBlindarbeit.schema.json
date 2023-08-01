@@ -1,13 +1,10 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ZahlerBlindarbeit.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "ANSCHLUSSNUTZER",
-      "LIEFERANT",
-      "NICHT_FESTGELEGT"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "ANSCHLUSSNUTZER",
+    "LIEFERANT",
+    "NICHT_FESTGELEGT"
+  ]
 }

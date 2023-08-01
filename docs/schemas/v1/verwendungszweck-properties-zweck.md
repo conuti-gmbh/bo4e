@@ -1,3 +1,3 @@
 ## zweck Type
 
-`string[][]`
+`string[]`

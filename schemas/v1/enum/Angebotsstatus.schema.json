@@ -1,19 +1,16 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Angebotsstatus.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "KONZEPTION",
-      "UNVERBINDLICH",
-      "VERBINDLICH",
-      "BEAUFTRAGT",
-      "UNGUELTIG",
-      "ABGELEHNT",
-      "NACHGEFASST",
-      "AUSSTEHEND",
-      "ERLEDIGT"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "KONZEPTION",
+    "UNVERBINDLICH",
+    "VERBINDLICH",
+    "BEAUFTRAGT",
+    "UNGUELTIG",
+    "ABGELEHNT",
+    "NACHGEFASST",
+    "AUSSTEHEND",
+    "ERLEDIGT"
+  ]
 }
