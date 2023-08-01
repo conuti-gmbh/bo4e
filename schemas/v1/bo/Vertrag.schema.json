@@ -33,6 +33,9 @@
     "vertragsende":  {
       "type": "string"
     },
+    "vertragsbeginn":  {
+      "type": "string"
+    },
     "gemeinderabatt":  {
       "type": "integer"
     },

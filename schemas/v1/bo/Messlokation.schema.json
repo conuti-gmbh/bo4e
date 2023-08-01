@@ -34,7 +34,7 @@
       "$ref": "../enum/Bilanzierungsmethode.schema.json"
     },
     "abrechnungmessstellenbetriebnna": {
-      "type": "bool"
+      "type": "boolean"
     },
     "gasqualitaet": {
       "$ref": "../enum/Gasqualitaet.schema.json"
