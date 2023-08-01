@@ -1,3 +1,3 @@
 ## detailsPrognosegrundlage Type
 
-`string[][]`
+`string[]`

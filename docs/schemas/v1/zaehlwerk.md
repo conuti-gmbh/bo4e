@@ -8,14 +8,14 @@
 | :------------------------------------------------------------------------ | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [zaehlwerkId](#zaehlwerkid)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-zaehlwerkid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/zaehlwerkId")                                                    |
 | [bezeichnung](#bezeichnung)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/bezeichnung")                                                    |
-| [richtung](#richtung)                                                     | `array`   | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")                                                                 |
+| [richtung](#richtung)                                                     | `string`  | Optional | cannot be null | [Untitled schema](energierichtung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Energierichtung.schema.json#/properties/richtung")                                                                 |
 | [obisKennzahl](#obiskennzahl)                                             | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-obiskennzahl.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/obisKennzahl")                                                  |
 | [wandlerfaktor](#wandlerfaktor)                                           | `number`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-wandlerfaktor.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/wandlerfaktor")                                                |
-| [einheit](#einheit)                                                       | `array`   | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                                                      |
-| [schwachlastfaehig](#schwachlastfaehig)                                   | `array`   | Optional | cannot be null | [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                                    |
-| [verbrauchsart](#verbrauchsart)                                           | `array`   | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
-| [unterbrechbarkeit](#unterbrechbarkeit)                                   | `array`   | Optional | cannot be null | [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")                                                    |
-| [waermenutzung](#waermenutzung)                                           | `array`   | Optional | cannot be null | [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
+| [einheit](#einheit)                                                       | `string`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit")                                                                      |
+| [schwachlastfaehig](#schwachlastfaehig)                                   | `string`  | Optional | cannot be null | [Untitled schema](schwachlastfaehig.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Schwachlastfaehig.schema.json#/properties/schwachlastfaehig")                                                    |
+| [verbrauchsart](#verbrauchsart)                                           | `string`  | Optional | cannot be null | [Untitled schema](verbrauchsart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verbrauchsart.schema.json#/properties/verbrauchsart")                                                                |
+| [unterbrechbarkeit](#unterbrechbarkeit)                                   | `string`  | Optional | cannot be null | [Untitled schema](unterbrechbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Unterbrechbarkeit.schema.json#/properties/unterbrechbarkeit")                                                    |
+| [waermenutzung](#waermenutzung)                                           | `string`  | Optional | cannot be null | [Untitled schema](waermenutzung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Waermenutzung.schema.json#/properties/waermenutzung")                                                                |
 | [konzessionsabgabe](#konzessionsabgabe)                                   | `object`  | Optional | cannot be null | [Untitled schema](konzessionsabgabe.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/konzessionsabgabe")                                                     |
 | [steuerbefreit](#steuerbefreit)                                           | `boolean` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-steuerbefreit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/steuerbefreit")                                                |
 | [vorkommastelle](#vorkommastelle)                                         | `integer` | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-vorkommastelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/vorkommastelle")                                              |
@@ -25,10 +25,10 @@
 | [zaehlzeiten](#zaehlzeiten)                                               | `object`  | Optional | cannot be null | [Untitled schema](zaehlzeitregister.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlzeitregister.schema.json#/properties/zaehlzeiten")                                                           |
 | [konfiguration](#konfiguration)                                           | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-konfiguration.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/konfiguration")                                                |
 | [messprodukt](#messprodukt)                                               | `string`  | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-messprodukt.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/messprodukt")                                                    |
-| [wertegranularitaet](#wertegranularitaet)                                 | `array`   | Optional | cannot be null | [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")                                                 |
-| [notwendigkeitZweiteMessung](#notwendigkeitzweitemessung)                 | `array`   | Optional | cannot be null | [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")                         |
-| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `array`   | Optional | cannot be null | [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
-| [artEMobilitaet](#artemobilitaet)                                         | `array`   | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
+| [wertegranularitaet](#wertegranularitaet)                                 | `string`  | Optional | cannot be null | [Untitled schema](wertegranularitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Wertegranularitaet.schema.json#/properties/wertegranularitaet")                                                 |
+| [notwendigkeitZweiteMessung](#notwendigkeitzweitemessung)                 | `string`  | Optional | cannot be null | [Untitled schema](notwendigkeitzweitemessung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/NotwendigkeitZweiteMessung.schema.json#/properties/notwendigkeitZweiteMessung")                         |
+| [werteuebermittlungVerwendungszweck](#werteuebermittlungverwendungszweck) | `string`  | Optional | cannot be null | [Untitled schema](werteuebermitllungverwendungszweck.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/WerteuebermittlungVerwendungszweck.schema.json#/properties/werteuebermittlungVerwendungszweck") |
+| [artEMobilitaet](#artemobilitaet)                                         | `string`  | Optional | cannot be null | [Untitled schema](artemobilitaet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/ArtEmobilitaet.schema.json#/properties/artEMobilitaet")                                                             |
 | [verwendungszwecke](#verwendungszwecke)                                   | `array`   | Optional | cannot be null | [Untitled schema](zaehlwerk-properties-verwendungszwecke.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Zaehlwerk.schema.json#/properties/verwendungszwecke")                                        |
 
 ## zaehlwerkId
@@ -75,7 +75,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -83,7 +83,16 @@
 
 ### richtung Type
 
-`string[]`
+`string`
+
+### richtung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"AUSSP"` |             |
+| `"EINSP"` |             |
 
 ## obisKennzahl
 
@@ -129,7 +138,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -137,7 +146,33 @@
 
 ### einheit Type
 
-`string[]`
+`string`
+
+### einheit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"W"`          |             |
+| `"WH"`         |             |
+| `"KW"`         |             |
+| `"KWH"`        |             |
+| `"KVARH"`      |             |
+| `"MW"`         |             |
+| `"MWH"`        |             |
+| `"STUECK"`     |             |
+| `"KUBIKMETER"` |             |
+| `"STUNDE"`     |             |
+| `"TAG"`        |             |
+| `"MONAT"`      |             |
+| `"JAHR"`       |             |
+| `"PROZENT"`    |             |
+| `"ANZAHL"`     |             |
+| `"VAR"`        |             |
+| `"KVAR"`       |             |
+| `"VARH"`       |             |
+| `"KWHK"`       |             |
 
 ## schwachlastfaehig
 
@@ -147,7 +182,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -155,7 +190,16 @@
 
 ### schwachlastfaehig Type
 
-`string[]`
+`string`
+
+### schwachlastfaehig Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                       | Explanation |
+| :-------------------------- | :---------- |
+| `"SCHWACHLASTFAEHIG"`       |             |
+| `"NICHT_SCHWACHLASTFAEHIG"` |             |
 
 ## verbrauchsart
 
@@ -165,7 +209,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -173,7 +217,19 @@
 
 ### verbrauchsart Type
 
-`string[]`
+`string`
+
+### verbrauchsart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"KL"`   |             |
+| `"W"`    |             |
+| `"EMOB"` |             |
+| `"SB"`   |             |
+| `"SW"`   |             |
 
 ## unterbrechbarkeit
 
@@ -183,7 +239,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -191,7 +247,16 @@
 
 ### unterbrechbarkeit Type
 
-`string[]`
+`string`
+
+### unterbrechbarkeit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value   | Explanation |
+| :------ | :---------- |
+| `"UV"`  |             |
+| `"NUV"` |             |
 
 ## waermenutzung
 
@@ -201,7 +266,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -209,7 +274,17 @@
 
 ### waermenutzung Type
 
-`string[]`
+`string`
+
+### waermenutzung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"SPEICHERHEIZUNG"` |             |
+| `"WAERMEPUMPE"`     |             |
+| `"DIREKTHEIZUNG"`   |             |
 
 ## konzessionsabgabe
 
@@ -381,7 +456,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -389,7 +464,18 @@
 
 ### wertegranularitaet Type
 
-`string[]`
+`string`
+
+### wertegranularitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"JAEHRLICH"`     |             |
+| `"HALBJAEHRLICH"` |             |
+| `"QUARTALSWEISE"` |             |
+| `"MONATLICH"`     |             |
 
 ## notwendigkeitZweiteMessung
 
@@ -399,7 +485,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -407,7 +493,16 @@
 
 ### notwendigkeitZweiteMessung Type
 
-`string[]`
+`string`
+
+### notwendigkeitZweiteMessung Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"VORHANDEN"`       |             |
+| `"NICHT_VORHANDEN"` |             |
 
 ## werteuebermittlungVerwendungszweck
 
@@ -417,7 +512,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -425,7 +520,16 @@
 
 ### werteuebermittlungVerwendungszweck Type
 
-`string[]`
+`string`
+
+### werteuebermittlungVerwendungszweck Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"VORHANDEN"`       |             |
+| `"NICHT_VORHANDEN"` |             |
 
 ## artEMobilitaet
 
@@ -435,7 +539,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -443,7 +547,17 @@
 
 ### artEMobilitaet Type
 
-`string[]`
+`string`
+
+### artEMobilitaet Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value  | Explanation |
+| :----- | :---------- |
+| `"WB"` |             |
+| `"LS"` |             |
+| `"LP"` |             |
 
 ## verwendungszwecke
 

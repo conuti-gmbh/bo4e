@@ -7,8 +7,8 @@
 | Property                          | Type      | Required | Nullable       | Defined by                                                                                                                                                                      |
 | :-------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [bezeichnung](#bezeichnung)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-bezeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/bezeichnung") |
-| [verfahren](#verfahren)           | `array`   | Optional | cannot be null | [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")               |
-| [profilart](#profilart)           | `array`   | Optional | cannot be null | [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilart.schema.json#/properties/profilart")                           |
+| [verfahren](#verfahren)           | `string`  | Optional | cannot be null | [Untitled schema](profilverfahren.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilverfahren.schema.json#/properties/verfahren")               |
+| [profilart](#profilart)           | `string`  | Optional | cannot be null | [Untitled schema](profilart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Profilart.schema.json#/properties/profilart")                           |
 | [profilschar](#profilschar)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-profilschar.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/profilschar") |
 | [einspeisung](#einspeisung)       | `boolean` | Optional | cannot be null | [Untitled schema](lastprofil-properties-einspeisung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/einspeisung") |
 | [herausgeber](#herausgeber)       | `string`  | Optional | cannot be null | [Untitled schema](lastprofil-properties-herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Lastprofil.schema.json#/properties/herausgeber") |
@@ -40,7 +40,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -48,7 +48,16 @@
 
 ### verfahren Type
 
-`string[]`
+`string`
+
+### verfahren Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value           | Explanation |
+| :-------------- | :---------- |
+| `"SYNTHETISCH"` |             |
+| `"ANALYTISCH"`  |             |
 
 ## profilart
 
@@ -58,7 +67,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -66,7 +75,17 @@
 
 ### profilart Type
 
-`string[]`
+`string`
+
+### profilart Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                        | Explanation |
+| :------------------------------------------- | :---------- |
+| `"ART_STANDARDLASTPROFIL"`                   |             |
+| `"ART_TAGESPARAMETERABHAENGIGES_LASTPROFIL"` |             |
+| `"ART_LASTPROFIL"`                           |             |
 
 ## profilschar
 

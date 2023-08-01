@@ -9,7 +9,7 @@
 | [boTyp](#botyp)                     | `string` | Required | cannot be null | [Untitled schema](handelsunstimmigkeit-properties-botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/boTyp")                     |
 | [versionStruktur](#versionstruktur) | `string` | Required | cannot be null | [Untitled schema](handelsunstimmigkeit-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/versionStruktur") |
 | [nummer](#nummer)                   | `string` | Optional | cannot be null | [Untitled schema](handelsunstimmigkeit-properties-nummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Handelsunstimmigkeit.schema.json#/properties/nummer")                   |
-| [typ](#typ)                         | `array`  | Optional | cannot be null | [Untitled schema](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")                              |
+| [typ](#typ)                         | `string` | Optional | cannot be null | [Untitled schema](handelsunstimmigkeitstyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Handelsunstimmigkeitstyp.schema.json#/properties/typ")                              |
 | [begruendung](#begruendung)         | `object` | Optional | cannot be null | [Untitled schema](handelsunstimmungkeitsbegruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Handelsunstimmigkeitsbegruendung.schema.json#/properties/begruendung")      |
 | [zuZahlen](#zuzahlen)               | `object` | Optional | cannot be null | [Untitled schema](betrag.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Betrag.schema.json#/properties/zuZahlen")                                                              |
 
@@ -75,7 +75,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -83,7 +83,18 @@
 
 ### typ Type
 
-`string[]`
+`string`
+
+### typ Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                     | Explanation |
+| :---------------------------------------- | :---------- |
+| `"HANDELSRECHNUNG"`                       |             |
+| `"LIEFERSCHEIN_HANDELSUNSTIMMIGKEITSTYP"` |             |
+| `"LIEFERSCHEIN_GRUND_ARBEITSPREIS"`       |             |
+| `"LIEFERSCHEIN_ARBEITS_LEISTUNGSPREIS"`   |             |
 
 ## begruendung
 

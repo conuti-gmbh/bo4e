@@ -6,7 +6,7 @@
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                                                                                                    |
 | :-------------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [angebotsstatus](#angebotsstatus) | `array`  | Optional | cannot be null | [Untitled schema](angebotsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Angebotsstatus.schema.json#/properties/angebotsstatus")                          |
+| [angebotsstatus](#angebotsstatus) | `string` | Optional | cannot be null | [Untitled schema](angebotsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Angebotsstatus.schema.json#/properties/angebotsstatus")                          |
 | [beschreibung](#beschreibung)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-beschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/beschreibung") |
 | [erstelldatum](#erstelldatum)     | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-erstelldatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/erstelldatum") |
 | [bindefrist](#bindefrist)         | `string` | Optional | cannot be null | [Untitled schema](angebotsvariante-properties-bindefrist.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Angebotsvariante.schema.json#/properties/bindefrist")     |
@@ -22,7 +22,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -30,7 +30,23 @@
 
 ### angebotsstatus Type
 
-`string[]`
+`string`
+
+### angebotsstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value             | Explanation |
+| :---------------- | :---------- |
+| `"KONZEPTION"`    |             |
+| `"UNVERBINDLICH"` |             |
+| `"VERBINDLICH"`   |             |
+| `"BEAUFTRAGT"`    |             |
+| `"UNGUELTIG"`     |             |
+| `"ABGELEHNT"`     |             |
+| `"NACHGEFASST"`   |             |
+| `"AUSSTEHEND"`    |             |
+| `"ERLEDIGT"`      |             |
 
 ## beschreibung
 

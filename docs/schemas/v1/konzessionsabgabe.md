@@ -6,7 +6,7 @@
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                                                                                |
 | :---------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [satz](#satz)           | `array`  | Optional | cannot be null | [Untitled schema](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")                                          |
+| [satz](#satz)           | `string` | Optional | cannot be null | [Untitled schema](abgabeart.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/AbgabeArt.schema.json#/properties/satz")                                          |
 | [kosten](#kosten)       | `number` | Optional | cannot be null | [Untitled schema](konzessionsabgabe-properties-kosten.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kosten")       |
 | [kategorie](#kategorie) | `string` | Optional | cannot be null | [Untitled schema](konzessionsabgabe-properties-kategorie.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Konzessionsabgabe.schema.json#/properties/kategorie") |
 
@@ -18,7 +18,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -26,7 +26,23 @@
 
 ### satz Type
 
-`string[]`
+`string`
+
+### satz Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value   | Explanation |
+| :------ | :---------- |
+| `"KAS"` |             |
+| `"SA"`  |             |
+| `"SAS"` |             |
+| `"TA"`  |             |
+| `"TAS"` |             |
+| `"TK"`  |             |
+| `"TKS"` |             |
+| `"TS"`  |             |
+| `"TSS"` |             |
 
 ## kosten
 

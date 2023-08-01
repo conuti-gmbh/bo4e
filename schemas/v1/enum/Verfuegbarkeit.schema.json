@@ -1,16 +1,13 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Verfuegbarkeit.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "MONTAG",
-      "DIENSTAG",
-      "MITTWOCH",
-      "DONNERSTAG",
-      "FREITAG",
-      "PAUSE"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "MONTAG",
+    "DIENSTAG",
+    "MITTWOCH",
+    "DONNERSTAG",
+    "FREITAG",
+    "PAUSE"
+  ]
 }

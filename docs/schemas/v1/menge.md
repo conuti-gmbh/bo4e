@@ -7,7 +7,7 @@
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                                                  |
 | :------------------ | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [wert](#wert)       | `number` | Optional | cannot be null | [Untitled schema](menge-properties-wert.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Menge.schema.json#/properties/wert")     |
-| [einheit](#einheit) | `array`  | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit") |
+| [einheit](#einheit) | `string` | Optional | cannot be null | [Untitled schema](mengeneinheit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Mengeneinheit.schema.json#/properties/einheit") |
 
 ## wert
 
@@ -35,7 +35,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -43,4 +43,30 @@
 
 ### einheit Type
 
-`string[]`
+`string`
+
+### einheit Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value          | Explanation |
+| :------------- | :---------- |
+| `"W"`          |             |
+| `"WH"`         |             |
+| `"KW"`         |             |
+| `"KWH"`        |             |
+| `"KVARH"`      |             |
+| `"MW"`         |             |
+| `"MWH"`        |             |
+| `"STUECK"`     |             |
+| `"KUBIKMETER"` |             |
+| `"STUNDE"`     |             |
+| `"TAG"`        |             |
+| `"MONAT"`      |             |
+| `"JAHR"`       |             |
+| `"PROZENT"`    |             |
+| `"ANZAHL"`     |             |
+| `"VAR"`        |             |
+| `"KVAR"`       |             |
+| `"VARH"`       |             |
+| `"KWHK"`       |             |

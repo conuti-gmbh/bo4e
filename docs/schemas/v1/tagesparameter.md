@@ -9,7 +9,7 @@
 | [klimazone](#klimazone)                       | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-klimazone.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Tagesparameter.schema.json#/properties/klimazone")                       |
 | [temperaturmessstelle](#temperaturmessstelle) | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-temperaturmessstelle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Tagesparameter.schema.json#/properties/temperaturmessstelle") |
 | [dienstanbieter](#dienstanbieter)             | `string` | Optional | cannot be null | [Untitled schema](tagesparameter-properties-dienstanbieter.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Tagesparameter.schema.json#/properties/dienstanbieter")             |
-| [herausgeber](#herausgeber)                   | `array`  | Optional | cannot be null | [Untitled schema](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")                                               |
+| [herausgeber](#herausgeber)                   | `string` | Optional | cannot be null | [Untitled schema](herausgeber.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Herausgeber.schema.json#/properties/herausgeber")                                               |
 
 ## klimazone
 
@@ -73,7 +73,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -81,4 +81,14 @@
 
 ### herausgeber Type
 
-`string[]`
+`string`
+
+### herausgeber Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value    | Explanation |
+| :------- | :---------- |
+| `"NB"`   |             |
+| `"BDEW"` |             |
+| `"TUM"`  |             |

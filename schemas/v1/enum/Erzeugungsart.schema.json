@@ -1,24 +1,21 @@
 {
   "$schema": "http://json-schema.org/2020-12/schema#",
   "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Erzeugungsart.schema.json",
-  "type": "array",
-  "items": {
-    "type": "string",
-    "enum": [
-      "EEG",
-      "KWK",
-      "EEG_DV",
-      "KWK_DV",
-      "WIND",
-      "SOLAR",
-      "KERNKRAFT",
-      "WASSER",
-      "GEOTHERMIE",
-      "BIOMASSE",
-      "KOHLE",
-      "GAS",
-      "SONSTIGE",
-      "SONSTIGE_EEG"
-    ]
-  }
+  "type": "string",
+  "enum": [
+    "EEG",
+    "KWK",
+    "EEG_DV",
+    "KWK_DV",
+    "WIND",
+    "SOLAR",
+    "KERNKRAFT",
+    "WASSER",
+    "GEOTHERMIE",
+    "BIOMASSE",
+    "KOHLE",
+    "GAS",
+    "SONSTIGE",
+    "SONSTIGE_EEG"
+  ]
 }

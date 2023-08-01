@@ -6,9 +6,9 @@
 
 | Property                                                    | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                               |
 | :---------------------------------------------------------- | :-------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [boTyp](#botyp)                                             | `array`   | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                |
+| [boTyp](#botyp)                                             | `string`  | Required | cannot be null | [Untitled schema](botyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/BOTyp.schema.json#/properties/boTyp")                                                                                |
 | [versionStruktur](#versionstruktur)                         | `string`  | Required | cannot be null | [Untitled schema](marktteilnehmer-properties-versionstruktur.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/versionStruktur")                         |
-| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `array`   | Optional | cannot be null | [Untitled schema](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")                             |
+| [geschaeftspartnerrolle](#geschaeftspartnerrolle)           | `string`  | Optional | cannot be null | [Untitled schema](geschaeftspartnerrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Geschaeftspartnerrolle.schema.json#/properties/geschaeftspartnerrolle")                             |
 | [anrede](#anrede)                                           | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-anrede.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/anrede")                                           |
 | [name1](#name1)                                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name1.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name1")                                             |
 | [name2](#name2)                                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-name2.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/name2")                                             |
@@ -17,7 +17,7 @@
 | [partneradresse](#partneradresse)                           | `object`  | Optional | cannot be null | [Untitled schema](adresse.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Adresse.schema.json#/properties/partneradresse")                                                                    |
 | [gewerbekennzeichnung](#gewerbekennzeichnung)               | `boolean` | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-gewerbekennzeichnung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/gewerbekennzeichnung")               |
 | [externeKundenummerLieferant](#externekundenummerlieferant) | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-externekundenummerlieferant.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/externeKundenummerLieferant") |
-| [marktrolle](#marktrolle)                                   | `array`   | Optional | cannot be null | [Untitled schema](martkrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Martkrolle.schema.json#/properties/marktrolle")                                                                 |
+| [marktrolle](#marktrolle)                                   | `string`  | Optional | cannot be null | [Untitled schema](martkrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Martkrolle.schema.json#/properties/marktrolle")                                                                 |
 | [rollencodenummer](#rollencodenummer)                       | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-rollencodenummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodenummer")                       |
 | [rollencodetyp](#rollencodetyp)                             | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-rollencodetyp.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/rollencodetyp")                             |
 | [umsatzsteuerId](#umsatzsteuerid)                           | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-umsatzsteuerid.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/umsatzsteuerId")                           |
@@ -29,7 +29,7 @@
 | [hrnummer](#hrnummer)                                       | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-hrnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/hrnummer")                                       |
 | [website](#website)                                         | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-website.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/website")                                         |
 | [faxnummer](#faxnummer)                                     | `string`  | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-faxnummer.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/faxnummer")                                     |
-| [kommunikationsrolle](#kommunikationsrolle)                 | `array`   | Optional | cannot be null | [Untitled schema](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")                                      |
+| [kommunikationsrolle](#kommunikationsrolle)                 | `string`  | Optional | cannot be null | [Untitled schema](kommunikationsrolle.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Kommunikationsrolle.schema.json#/properties/kommunikationsrolle")                                      |
 | [weiterverpflichtet](#weiterverpflichtet)                   | `boolean` | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-weiterverpflichtet.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/weiterverpflichtet")                   |
 | [bankverbindung](#bankverbindung)                           | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-bankverbindung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/bankverbindung")                           |
 | [erreichbarkeit](#erreichbarkeit)                           | `array`   | Optional | cannot be null | [Untitled schema](marktteilnehmer-properties-erreichbarkeit.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Marktteilnehmer.schema.json#/properties/erreichbarkeit")                           |
@@ -42,7 +42,7 @@
 
 *   is required
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -50,7 +50,46 @@
 
 ### boTyp Type
 
-`string[]`
+`string`
+
+### boTyp Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                           | Explanation |
+| :------------------------------ | :---------- |
+| `"ANSPRECHPARTNER"`             |             |
+| `"AVIS"`                        |             |
+| `"ENERGIEMENGE"`                |             |
+| `"GESCHAEFTSOBJEKT"`            |             |
+| `"GESCHAEFTSPARTNER"`           |             |
+| `"MARKTLOKATION"`               |             |
+| `"MARKTTEILNEHMER"`             |             |
+| `"MESSLOKATION"`                |             |
+| `"ZAEHLER"`                     |             |
+| `"KOSTEN"`                      |             |
+| `"TARIF"`                       |             |
+| `"PREISBLATT"`                  |             |
+| `"PREISBLATTNETZNUTZUNG"`       |             |
+| `"PREISBLATTMESSUNG"`           |             |
+| `"PREISBLATTUMLAGEN"`           |             |
+| `"PREISBLATTDIENSTLEISTUNG"`    |             |
+| `"PREISBLATTKONZESSIONSABGABE"` |             |
+| `"ZEITREIHE"`                   |             |
+| `"LASTGANG"`                    |             |
+| `"HANDELSUNSTIMMIGKEIT"`        |             |
+| `"ANFRAGE"`                     |             |
+| `"AUFTRAG"`                     |             |
+| `"STATUSMITTEILUNG"`            |             |
+| `"BERECHNUNGSFORMEL"`           |             |
+| `"RECHNUNG"`                    |             |
+| `"BILANZIERUNG"`                |             |
+| `"NETZNUTZUNGSVERTRAG"`         |             |
+| `"MESSSTELLENBETRIEBSVERTRAG"`  |             |
+| `"ENERGIELIEFERVERTRAG"`        |             |
+| `"SPERRAUFTRAG"`                |             |
+| `"ANGEBOT"`                     |             |
+| `"TRANCHE"`                     |             |
 
 ## versionStruktur
 
@@ -78,7 +117,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -86,7 +125,23 @@
 
 ### geschaeftspartnerrolle Type
 
-`string[]`
+`string`
+
+### geschaeftspartnerrolle Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                       | Explanation |
+| :-------------------------- | :---------- |
+| `"KUNDE"`                   |             |
+| `"LIEFERANT"`               |             |
+| `"DIENSTLEISTER"`           |             |
+| `"INTERESSENT"`             |             |
+| `"MARKTPARTNER"`            |             |
+| `"EIGENTUEMER"`             |             |
+| `"HAUSVERWALTER"`           |             |
+| `"KORRESPONDENZEMPFAENGER"` |             |
+| `"ABLESEKARTENEMPFAENGER"`  |             |
 
 ## anrede
 
@@ -240,7 +295,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -248,7 +303,32 @@
 
 ### marktrolle Type
 
-`string[]`
+`string`
+
+### marktrolle Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value               | Explanation |
+| :------------------ | :---------- |
+| `"NB"`              |             |
+| `"LF"`              |             |
+| `"MSB"`             |             |
+| `"MSBA"`            |             |
+| `"GMSB"`            |             |
+| `"MDL"`             |             |
+| `"DL"`              |             |
+| `"BKV"`             |             |
+| `"BKO"`             |             |
+| `"UENB"`            |             |
+| `"KUNDE-SELBST-NN"` |             |
+| `"MGV"`             |             |
+| `"EIV"`             |             |
+| `"RB"`              |             |
+| `"KUNDE"`           |             |
+| `"INTERESSENT"`     |             |
+| `"KN"`              |             |
+| `"UBA"`             |             |
 
 ## rollencodenummer
 
@@ -456,7 +536,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -464,7 +544,26 @@
 
 ### kommunikationsrolle Type
 
-`string[]`
+`string`
+
+### kommunikationsrolle Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                     | Explanation |
+| :------------------------ | :---------- |
+| `"DATENAUSTAUSCH"`        |             |
+| `"RAHMENVERTRAEGE"`       |             |
+| `"KUENDIGUNGSPROZESSE"`   |             |
+| `"WECHSELPROZESSE"`       |             |
+| `"STAMMDATENPROZESSE"`    |             |
+| `"EINSPEISEPROZESSE"`     |             |
+| `"ABRECHNUNGSPROZESSE"`   |             |
+| `"MMMA_PROZESSE"`         |             |
+| `"BEWEGUNGSDATEN"`        |             |
+| `"ENT_SPERR_PROZESSE"`    |             |
+| `"BILANZIERUNGSPROZESSE"` |             |
+| `"NETZANSCHLUSS_ANLAGEN"` |             |
 
 ## weiterverpflichtet
 

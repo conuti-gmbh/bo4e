@@ -11,8 +11,8 @@
 | [verwendungAb](#verwendungab)                       | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungab.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungAb")           |
 | [verwendungBis](#verwendungbis)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-verwendungbis.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/verwendungBis")         |
 | [enddatum](#enddatum)                               | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-enddatum.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/enddatum")                   |
-| [auftragsstatus](#auftragsstatus)                   | `array`   | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                                                    |
-| [statusanlass](#statusanlass)                       | `array`   | Optional | cannot be null | [Untitled schema](statusanlass.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Statusanlass.schema.json#/properties/statusanlass")                                                          |
+| [auftragsstatus](#auftragsstatus)                   | `string`  | Optional | cannot be null | [Untitled schema](auftragsstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Auftragsstatus.schema.json#/properties/auftragsstatus")                                                    |
+| [statusanlass](#statusanlass)                       | `string`  | Optional | cannot be null | [Untitled schema](statusanlass.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/enum/Statusanlass.schema.json#/properties/statusanlass")                                                          |
 | [antwortstatus](#antwortstatus)                     | `string`  | Optional | cannot be null | [Untitled schema](statusmitteilungposition-properties-antwortstatus.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/StatusmitteilungPosition.schema.json#/properties/antwortstatus")         |
 | [fehlerbeschreibung](#fehlerbeschreibung)           | `object`  | Optional | cannot be null | [Untitled schema](fehlerbeschreibung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Fehlerbeschreibung.schema.json#/properties/fehlerbeschreibung")                                         |
 | [begruendung](#begruendung)                         | `object`  | Optional | cannot be null | [Untitled schema](begruendung.md "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/Begruendung.schema.json#/properties/begruendung")                                                              |
@@ -118,7 +118,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -126,7 +126,27 @@
 
 ### auftragsstatus Type
 
-`string[]`
+`string`
+
+### auftragsstatus Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                      | Explanation |
+| :------------------------- | :---------- |
+| `"GESCHEITERT"`            |             |
+| `"ERFOLGREICH"`            |             |
+| `"LIEFERUNG_GEPLANT"`      |             |
+| `"GEPLANT"`                |             |
+| `"ZUGESTIMMT"`             |             |
+| `"WIDERSPROCHEN"`          |             |
+| `"STOERUNGSFREI"`          |             |
+| `"GESTOERT"`               |             |
+| `"FESTGESTELLTE_STOERUNG"` |             |
+| `"VERMUTETE_STOERUNG"`     |             |
+| `"ABGELEHNT"`              |             |
+| `"BEENDET"`                |             |
+| `"ANTWORT_DRITTER"`        |             |
 
 ## statusanlass
 
@@ -136,7 +156,7 @@
 
 *   is optional
 
-*   Type: `string[]`
+*   Type: `string`
 
 *   cannot be null
 
@@ -144,7 +164,20 @@
 
 ### statusanlass Type
 
-`string[]`
+`string`
+
+### statusanlass Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value                                | Explanation |
+| :----------------------------------- | :---------- |
+| `"KOMMUNIKATIONSSTOERUNG"`           |             |
+| `"STATUS_GERAETEWECHSEL"`            |             |
+| `"MESSEINRICHTUNG_GESTOERT_DEFEKT"`  |             |
+| `"KEINE_STOERUNG_FESTSTELLBAR"`      |             |
+| `"STOERUNGSBEHEBUNG_NICHT_MOEGLICH"` |             |
+| `"REPARATUR_OHNE_GERAETEWECHSEL"`    |             |
 
 ## antwortstatus
 
