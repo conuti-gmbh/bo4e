@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/bo/Statusbericht.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "status": {
+      "$ref": "../enum/BerichtStatus.schema.json"
+    },
+    "pruefgegenstand": {
+      "type": "string"
+    },
+    "datumPruefung": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "fehler": {
+      "$ref": "../enum/Fehler.schema.json"
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

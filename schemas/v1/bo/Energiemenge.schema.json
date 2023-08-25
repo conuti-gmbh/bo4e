@@ -33,6 +33,9 @@
     "referenzStammdatenmeldungMsb":  {
       "type": "string"
     },
+    "konfiguration":  {
+      "type": "string"
+    },
     "energieverbrauch":  {
       "type": "array",
       "items": {
