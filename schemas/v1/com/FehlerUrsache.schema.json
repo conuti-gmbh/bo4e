@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e/main/schemas/v1/com/FehlerUrsache.schema.json",
+  "type": "object",
+  "properties": {
+    "dokument": {
+      "type": "string"
+    },
+    "nachricht": {
+      "type": "string"
+    },
+    "transaktion": {
+      "type": "string"
+    },
+    "gruppe": {
+      "$ref": "../com/Gruppe.schema.json"
+    },
+    "segment": {
+      "type": "string"
+    },
+    "beschreibung": {
+      "$ref": "../com/Beschreibung.schema.json"
+    }
+  }
+}
