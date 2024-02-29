@@ -1,0 +1,3 @@
+## referenzSteuerbareRessource Type
+
+`string`

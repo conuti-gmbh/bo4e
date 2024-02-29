@@ -1,0 +1,3 @@
+## vorgelagerteNetzlokation Type
+
+`string`

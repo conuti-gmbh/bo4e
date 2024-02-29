@@ -1,0 +1,3 @@
+## istStorno Type
+
+`boolean`

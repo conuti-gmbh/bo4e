@@ -1,0 +1,3 @@
+## speicherkapazitaet Type
+
+`number`

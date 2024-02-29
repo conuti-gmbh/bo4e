@@ -1,0 +1,3 @@
+## nichtGenutzt Type
+
+`boolean`

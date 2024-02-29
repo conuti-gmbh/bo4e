@@ -1,0 +1,3 @@
+## objectcode Type
+
+`string`

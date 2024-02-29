@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Schaltzeitdefinition.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "beginndatum": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endedatum": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "version": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "code": {
+      "type": "string"
+    },
+    "notwendigkeit": {
+      "$ref": "../enum/DefinitionenNotwendigkeit.schema.json"
+    },
+    "schaltzeiten": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Schaltzeit.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

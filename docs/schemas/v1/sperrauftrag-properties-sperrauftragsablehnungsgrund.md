@@ -1,0 +1,3 @@
+## sperrauftragsablehnungsgrund Type
+
+unknown

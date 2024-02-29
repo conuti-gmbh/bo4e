@@ -1,0 +1,3 @@
+## beschreibungTyp Type
+
+`string`

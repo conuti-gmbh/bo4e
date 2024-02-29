@@ -1,0 +1,3 @@
+## endePeriodeNetznutzung Type
+
+`string`

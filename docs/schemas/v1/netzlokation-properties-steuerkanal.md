@@ -1,0 +1,3 @@
+## steuerkanal Type
+
+`boolean`

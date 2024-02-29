@@ -1,0 +1,3 @@
+## enwg Type
+
+`boolean`

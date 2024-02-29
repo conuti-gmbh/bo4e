@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Rechnungsposition.schema.json",
+  "type": "object",
+  "properties": {
+    "einzelpreis": {
+      "$ref": "../com/Preis.schema.json"
+    },
+    "lieferungBis": {
+      "type": "string"
+    },
+    "lieferungVon": {
+      "type": "string"
+    },
+    "positionsMenge": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "positionsnummer": {
+      "type": "integer"
+    },
+    "artikelnummer": {
+      "type": "string"
+    },
+    "teilsummeNetto": {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "teilsummeSteuer": {
+      "$ref": "../com/Steuerbetrag.schema.json"
+    },
+    "zeitbezogeneMenge": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "abschlag": {
+      "$ref": "../com/Abschlag.schema.json"
+    },
+    "zuschlag": {
+      "$ref": "../com/Zuschlag.schema.json"
+    },
+    "gemeinderabatt": {
+      "$ref": "../com/Gemeinderabatt.schema.json"
+    },
+    "gesamtZuAbschlagsbetrag": {
+      "type": "number"
+    },
+    "korrekturfaktor": {
+      "type": "number"
+    },
+    "ausfuehrungsdatum": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

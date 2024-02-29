@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Abweichung.schema.json",
+  "type": "object",
+  "properties": {
+    "abweichungsgrund": {
+      "$ref": "../enum/Abweichungsgrund.schema.json"
+    },
+    "abweichungsgrundBemerkung": {
+      "type": "string"
+    },
+    "zugehoerigeRechnung": {
+      "type": "string"
+    },
+    "zugehoerigeBestellung": {
+      "type": "string"
+    },
+    "abweichungsgrundCode": {
+      "type": "string"
+    },
+    "abweichungsgrundCodeliste": {
+      "type": "string"
+    },
+    "fehlendePositionen1": {
+      "type": "string"
+    },
+    "fehlendePositionen2": {
+      "type": "string"
+    },
+    "fehlendePositionen3": {
+      "type": "string"
+    },
+    "fehlendePositionen4": {
+      "type": "string"
+    },
+    "fehlendePositionen5": {
+      "type": "string"
+    },
+    "abweichungsgrundBemerkung1": {
+      "type": "string"
+    },
+    "abweichungsgrundBemerkung2": {
+      "type": "string"
+    },
+    "abweichungsgrundBemerkung3": {
+      "type": "string"
+    },
+    "abweichungsgrundBemerkung4": {
+      "type": "string"
+    },
+    "abweichungsgrundBemerkung5": {
+      "type": "string"
+    },
+    "referenz": {
+      "type": "string"
+    },
+    "abschlagsrechnungen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

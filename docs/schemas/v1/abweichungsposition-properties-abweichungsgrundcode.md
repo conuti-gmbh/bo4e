@@ -1,0 +1,3 @@
+## abweichungsgrundCode Type
+
+`string`

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/ZertifikatsNutzer.schema.json",
+  "type": "object",
+  "properties": {
+    "zertifikatsNutzer1": {
+      "type": "string"
+    },
+    "zertifikatsNutzer2": {
+      "type": "string"
+    },
+    "zertifikatsNutzer3": {
+      "type": "string"
+    },
+    "zertifikatsNutzer4": {
+      "type": "string"
+    },
+    "zertifikatsNutzer5": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+## referenzMarktlokation Type
+
+`string`

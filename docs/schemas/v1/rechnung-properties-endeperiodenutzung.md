@@ -1,0 +1,3 @@
+## endePeriodeNutzung Type
+
+`string`

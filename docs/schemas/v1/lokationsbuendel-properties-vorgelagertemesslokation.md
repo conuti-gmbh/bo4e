@@ -1,0 +1,3 @@
+## vorgelagerteMesslokation Type
+
+`string`

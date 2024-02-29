@@ -1,0 +1,3 @@
+## referenzMarktlokationTechnischeRessource Type
+
+`string[]`

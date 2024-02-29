@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/VerwendungszweckValue.schema.json",
+  "type": "string",
+  "enum": [
+    "NETZNUTZUNGSABRECHNUNG",
+    "BILANZKREISABRECHNUNG",
+    "MEHRMINDERMENGENABRECHNUNG",
+    "ENDKUNDENABRECHNUNG",
+    "UEBERMITTLUNG_AN_DAS_HKNR",
+    "BLINDARBEITSABRECHNUNG",
+    "ERMITTLUNG_AUSGEGLICHENHEIT_BILANZKREIS",
+    "BLINDARBEITABRECHNUNG_BETRIEBSFUEHRUNG",
+    "ES_LIEGT_KEIN_VERWENDUNGSZWECK_VOR"
+  ]
+}

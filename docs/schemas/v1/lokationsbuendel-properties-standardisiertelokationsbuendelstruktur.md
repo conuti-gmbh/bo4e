@@ -1,0 +1,3 @@
+## standardisierteLokationsbuendelstruktur Type
+
+`boolean`

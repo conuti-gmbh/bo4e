@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/ModulNetzentgelte.schema.json",
+  "type": "string",
+  "enum": [
+    "PAUSCHALE_NETZGELDREDUZIERUNG_MODUL_1",
+    "PROZENTUALE_REDUZIERUNG_ARBEITSPREIS_MODUL_2",
+    "ANREIZMODUL_ZEITVARIABLES_NETZENTGELT_MODUL_3"
+  ]
+}

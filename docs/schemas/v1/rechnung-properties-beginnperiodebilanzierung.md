@@ -1,0 +1,3 @@
+## beginnPeriodeBilanzierung Type
+
+`string`

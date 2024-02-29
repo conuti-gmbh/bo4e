@@ -1,0 +1,3 @@
+## schaltzeitdefinition Type
+
+`string`

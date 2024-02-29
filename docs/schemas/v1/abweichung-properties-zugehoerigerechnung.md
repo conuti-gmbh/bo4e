@@ -1,0 +1,3 @@
+## zugehoerigeRechnung Type
+
+`string`

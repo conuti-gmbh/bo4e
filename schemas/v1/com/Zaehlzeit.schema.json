@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Zaehlzeit.schema.json",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "haeufigkeit": {
+      "$ref": "../enum/HaeufigkeitZaehlzeit.schema.json"
+    },
+    "uebermittelbarkeit": {
+      "$ref": "../enum/UebermittelbarkeitZaehlzeit.schema.json"
+    },
+    "ermittlungLeistungsmaximum": {
+      "$ref": "../enum/ErmittlungLeistungsmaximum.schema.json"
+    },
+    "istBestellbar": {
+      "type": "boolean"
+    },
+    "typ":  {
+      "$ref": "../enum/ZaehlzeitdefinitionTyp.schema.json"
+    },
+    "beschreibungTyp": {
+      "type": "string"
+    },
+    "aenderungszeitpunkt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "register": {
+      "type": "string"
+    }
+  }
+}

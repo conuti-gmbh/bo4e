@@ -1,0 +1,3 @@
+## referenzLokationsId Type
+
+`string`

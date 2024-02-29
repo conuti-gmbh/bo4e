@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Tagesparameter.schema.json",
+  "type": "object",
+  "properties": {
+    "klimazone": {
+      "type": "string"
+    },
+    "temperaturmessstelle": {
+      "type": "string"
+    },
+    "dienstanbieter": {
+      "type": "string"
+    },
+    "herausgeber": {
+      "$ref": "../enum/Herausgeber.schema.json"
+    }
+  }
+}

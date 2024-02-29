@@ -1,0 +1,3 @@
+## gueltigAb Type
+
+`string`

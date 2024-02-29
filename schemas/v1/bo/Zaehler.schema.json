@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Zaehler.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "zaehlernummer": {
+      "type": "string"
+    },
+    "sparte": {
+      "$ref": "../enum/Sparte.schema.json"
+    },
+    "zaehlerauspraegung": {
+      "$ref": "../enum/Zaehlerauspraegung.schema.json"
+    },
+    "zaehlertyp": {
+      "$ref": "../enum/Zaehlertyp.schema.json"
+    },
+    "tarifart": {
+      "$ref": "../enum/Tarifart.schema.json"
+    },
+    "zaehlerkonstante": {
+      "type": "number",
+      "format": "float"
+    },
+    "eichungBis": {
+      "type": "string"
+    },
+    "zaehlerhersteller": {
+      "$ref": "Geschaeftspartner.schema.json"
+    },
+    "gateway": {
+      "type": "string"
+    },
+    "fernschaltung": {
+      "$ref": "../enum/Fernschaltung.schema.json"
+    },
+    "messwerterfassung": {
+      "$ref": "../enum/Messwerterfassung.schema.json"
+    },
+    "zaehlertypspezifikation": {
+      "$ref": "../enum/ZaehlertypSpezifikation.schema.json"
+    },
+    "befestigungsart": {
+      "$ref": "../enum/Befestigungsart.schema.json"
+    },
+    "zaehlergroesse": {
+      "$ref": "../enum/Geraetemerkmal.schema.json"
+    },
+    "mengenumwertertyp": {
+      "$ref": "../enum/Mengenumwertertyp.schema.json"
+    },
+    "volumenerfassung": {
+      "$ref": "../enum/Volumenerfassung.schema.json"
+    },
+    "serialnummer": {
+      "type": "string"
+    },
+    "geraetemerkmal": {
+      "$ref": "../enum/Geraetemerkmal.schema.json"
+    },
+    "herstellungsdatum": {
+      "type": "string"
+    },
+    "baujahr": {
+      "type": "string"
+    },
+    "messlokationsId": {
+      "type": "string"
+    },
+    "marktlokationsId": {
+      "type": "string"
+    },
+    "geraete": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Geraet.schema.json"
+      }
+    },
+    "zaehlwerke": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Zaehlwerk.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

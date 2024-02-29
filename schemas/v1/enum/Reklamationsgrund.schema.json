@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Reklamationsgrund.schema.json",
+  "type": "string",
+  "enum": [
+    "WERTE_ZU_HOCH",
+    "WERTE_ZU_NIEDRIG",
+    "WERTE_FEHLEN",
+    "KONFIGURATION_WIRKT_NICHT",
+    "KONFIGURATION_WIRKT_TEILWEISE",
+    "WERTE_WERDEN_NICHT_NACH_VORGABEN_UEBERMITTELT",
+    "UEBERSICHT_FEHLT",
+    "UEBERSICHT_UNPLAUSIBEL",
+    "AUSGEROLLTE_DEFINITION_FEHLT",
+    "AUSGEROLLTE_DEFINITION_UNPLAUSIBEL"
+  ]
+}

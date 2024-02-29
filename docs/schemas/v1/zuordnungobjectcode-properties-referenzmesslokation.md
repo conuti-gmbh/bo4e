@@ -1,0 +1,3 @@
+## referenzMesslokation Type
+
+`string`

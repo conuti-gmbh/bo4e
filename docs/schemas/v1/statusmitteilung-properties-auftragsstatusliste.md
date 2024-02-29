@@ -1,0 +1,3 @@
+## auftragsStatusListe Type
+
+`string[]`

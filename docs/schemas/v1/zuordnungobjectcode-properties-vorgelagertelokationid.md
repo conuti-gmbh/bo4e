@@ -1,0 +1,3 @@
+## vorgelagerteLokationId Type
+
+`string`

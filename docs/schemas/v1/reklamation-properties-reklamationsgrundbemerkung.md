@@ -1,0 +1,3 @@
+## reklamationsgrundBemerkung Type
+
+`string`

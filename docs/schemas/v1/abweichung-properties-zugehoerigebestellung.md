@@ -1,0 +1,3 @@
+## zugehoerigeBestellung Type
+
+`string`

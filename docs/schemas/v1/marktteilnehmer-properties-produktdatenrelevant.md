@@ -1,0 +1,3 @@
+## produktDatenRelevant Type
+
+`boolean`

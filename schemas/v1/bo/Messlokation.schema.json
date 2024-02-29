@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Messlokation.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "type": "string"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "messlokationsId": {
+      "type": "string"
+    },
+    "sparte": {
+      "$ref": "../enum/Sparte.schema.json"
+    },
+    "energierichtung": {
+      "$ref": "../enum/Energierichtung.schema.json"
+    },
+    "netzebenemessung": {
+      "$ref": "../enum/Netzebene.schema.json"
+    },
+    "messgebietNr": {
+      "type": "string"
+    },
+    "grundzustaendigerMSBCodeNr": {
+      "type": "string"
+    },
+    "messadresse": {
+      "$ref": "../com/Adresse.schema.json"
+    },
+    "bilanzierungsmethode": {
+      "$ref": "../enum/Bilanzierungsmethode.schema.json"
+    },
+    "abrechnungmessstellenbetriebnna": {
+      "type": "boolean"
+    },
+    "gasqualitaet": {
+      "$ref": "../enum/Gasqualitaet.schema.json"
+    },
+    "verlustfaktor": {
+      "type": "number",
+      "format": "float"
+    },
+    "betriebszustand": {
+      "$ref": "../enum/Betriebszustand.schema.json"
+    },
+    "ablesekartenempfaenger": {
+      "$ref": "Geschaeftspartner.schema.json"
+    },
+    "referenzMarktlokationsId": {
+      "type": "string"
+    },
+    "verwendungsumfang": {
+      "$ref": "../enum/Verwendungsumfang.schema.json"
+    },
+    "zukuenftigerMeldepunkt": {
+      "type": "boolean"
+    },
+    "lokationszuordnung": {
+      "$ref": "../enum/Lokationszuordnung.schema.json"
+    },
+    "beteiligterMarktpartner": {
+      "$ref": "./Marktteilnehmer.schema.json"
+    },
+    "geraete": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Geraet.schema.json"
+      }
+    },
+    "messdienstleistung": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Dienstleistung.schema.json"
+      }
+    },
+    "messlokationszaehler": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "zaehlwerke": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Zaehlwerk.schema.json"
+      }
+    },
+    "marktrollen": {
+      "type": "array",
+      "items": {
+        "$ref": "../bo/Marktteilnehmer.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

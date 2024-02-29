@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Statusmitteilung.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "$ref": "../enum/BOTyp.schema.json"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "statusObjekt": {
+      "$ref": "../enum/Statusobjekt.schema.json"
+    },
+    "statusanlass": {
+      "$ref": "../enum/Status.schema.json"
+    },
+    "auftragsstatus": {
+      "$ref": "../enum/Auftragsstatus.schema.json"
+    },
+    "positionsdaten": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/StatusmitteilungPosition.schema.json"
+      }
+    },
+    "auftragsStatusListe": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Auftragsstatus.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

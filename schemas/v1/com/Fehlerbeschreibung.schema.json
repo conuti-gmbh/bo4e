@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Fehlerbeschreibung.schema.json",
+  "type": "object",
+  "properties": {
+    "beschreibung1": {
+      "type": "string"
+    },
+    "beschreibung2": {
+      "type": "string"
+    },
+    "beschreibung3": {
+      "type": "string"
+    },
+    "beschreibung4": {
+      "type": "string"
+    },
+    "beschreibung5": {
+      "type": "string"
+    }
+  }
+}

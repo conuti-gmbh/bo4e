@@ -1,0 +1,3 @@
+## konfigurationsprodukt Type
+
+`string`

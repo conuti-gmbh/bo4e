@@ -1,0 +1,3 @@
+## aufteilungsfaktorEnergiemenge Type
+
+`number`

@@ -1,0 +1,3 @@
+## obererSchwellwert Type
+
+`number`

@@ -1,0 +1,3 @@
+## abweichungsgrundBemerkung Type
+
+`string`

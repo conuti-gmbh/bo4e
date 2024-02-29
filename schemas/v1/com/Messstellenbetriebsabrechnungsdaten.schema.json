@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Messstellenbetriebsabrechnungsdaten.schema.json",
+  "type": "object",
+  "properties": {
+    "messstellenbetriebsabrechnung": {
+      "type": "boolean"
+    },
+    "artikelId": {
+      "type": "string"
+    },
+    "artikelIdTyp": {
+      "$ref": "../enum/ArtikelIdTyp.schema.json"
+    },
+    "anzahl": {
+      "type": "number"
+    },
+    "zuschlag": {
+      "type": "number"
+    },
+    "abschlag": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "typ",
+    "prozent"
+  ]
+}

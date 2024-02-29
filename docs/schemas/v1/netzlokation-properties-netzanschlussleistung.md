@@ -1,0 +1,3 @@
+## netzanschlussleistung Type
+
+`string`

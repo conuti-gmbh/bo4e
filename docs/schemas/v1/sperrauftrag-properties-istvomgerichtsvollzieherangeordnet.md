@@ -1,0 +1,3 @@
+## istVomGerichtsvollzieherAngeordnet Type
+
+`boolean`

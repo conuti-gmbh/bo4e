@@ -1,0 +1,3 @@
+## aufnahme Type
+
+`number`

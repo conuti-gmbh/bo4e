@@ -1,0 +1,3 @@
+## weitereEinrichtung Type
+
+`boolean`

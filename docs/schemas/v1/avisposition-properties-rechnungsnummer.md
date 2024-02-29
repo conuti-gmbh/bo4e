@@ -1,0 +1,3 @@
+## rechnungsNummer Type
+
+`string`

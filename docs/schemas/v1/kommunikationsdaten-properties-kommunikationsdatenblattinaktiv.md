@@ -1,0 +1,3 @@
+## kommunikationsDatenBlattInaktiv Type
+
+`boolean`

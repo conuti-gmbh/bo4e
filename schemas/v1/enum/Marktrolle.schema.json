@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/enum/Marktrolle.schema.json",
+  "type": "string",
+  "enum": [
+    "NB",
+    "LF",
+    "MSB",
+    "MSBA",
+    "GMSB",
+    "MDL",
+    "DL",
+    "BKV",
+    "BKO",
+    "UENB",
+    "KUNDE-SELBST-NN",
+    "MGV",
+    "EIV",
+    "RB",
+    "KUNDE",
+    "INTERESSENT",
+    "KN",
+    "UBA",
+    "BIKO",
+    "ESA"
+  ]
+}

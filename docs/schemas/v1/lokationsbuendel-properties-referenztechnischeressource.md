@@ -1,0 +1,3 @@
+## referenzTechnischeRessource Type
+
+`string`

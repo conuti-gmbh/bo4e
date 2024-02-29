@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Avis.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp":  {
+      "type": "string"
+    },
+    "versionStruktur":  {
+      "type": "string"
+    },
+    "avisNummer":  {
+      "type": "string"
+    },
+    "avisTyp":  {
+      "$ref": "../enum/AvisTyp.schema.json"
+    },
+    "zuZahlen":  {
+      "$ref": "../com/Betrag.schema.json"
+    },
+    "positionen":  {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Avisposition.schema.json"
+      }
+    }
+  },
+  "required": ["boTyp", "versionStruktur"]
+}

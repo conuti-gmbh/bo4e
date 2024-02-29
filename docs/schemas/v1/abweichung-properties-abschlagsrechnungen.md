@@ -1,0 +1,3 @@
+## abschlagsrechnungen Type
+
+`string[]`

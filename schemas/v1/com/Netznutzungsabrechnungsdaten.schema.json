@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/com/Netznutzungsabrechnungsdaten.schema.json",
+  "type": "object",
+  "properties": {
+    "artikelId": {
+      "type": "string"
+    },
+    "artikelIdTyp": {
+      "$ref": "../enum/ArtikelIdTyp.schema.json"
+    },
+    "anzahl": {
+      "type": "integer"
+    },
+    "gemeinderabatt": {
+      "type": "number",
+      "format": "float"
+    },
+    "zuschlag": {
+      "type": "number",
+      "format": "float"
+    },
+    "abschlag": {
+      "type": "number",
+      "format": "float"
+    },
+    "singulaereBetriebsmittel": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "preisSingulaereBetriebsmittel": {
+      "$ref": "../com/Preis.schema.json"
+    },
+    "abrechnungBlindarbeit": {
+      "type": "boolean"
+    },
+    "zahlerBlindarbeit": {
+      "$ref": "../enum/ZahlerBlindarbeit.schema.json"
+    },
+    "zahlerBlindarbeitLf": {
+      "type": "boolean"
+    },
+    "zaehlzeiten": {
+      "$ref": "../com/Zaehlzeitregister.schema.json"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+## korrekturfaktor Type
+
+`number`

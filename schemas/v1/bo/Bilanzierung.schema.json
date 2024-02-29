@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/2020-12/schema#",
+  "$id": "https://raw.githubusercontent.com/conuti-gmbh/bo4e-schema/master/schemas/v1/bo/Bilanzierung.schema.json",
+  "type": "object",
+  "properties": {
+    "boTyp": {
+      "type": "string"
+    },
+    "versionStruktur": {
+      "type": "string"
+    },
+    "aggregationsverantwortung": {
+      "$ref": "../enum/Aggregationsverantwortung.schema.json"
+    },
+    "zeitreihentyp": {
+      "type": "string"
+    },
+    "prognosegrundlage": {
+      "$ref": "../enum/Prognosegrundlage.schema.json"
+    },
+    "bilanzierungsbeginn": {
+      "type": "string"
+    },
+    "bilanzierungsende": {
+      "type": "string"
+    },
+    "bilanzkreis": {
+      "type": "string"
+    },
+    "fallgruppenzuordnung": {
+      "$ref": "../enum/Fallgruppenzuordnung.schema.json"
+    },
+    "temperaturarbeit": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "jahresverbrauchsprognose": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "kundenwert": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "verbrauchsaufteilung": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "wahlrechtPrognosegrundlage": {
+      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json"
+    },
+    "grundWahlrechtPrognosegrundlage": {
+      "$ref": "../enum/WahlrechtPrognosegrundlage.schema.json"
+    },
+    "abwicklungsmodell": {
+      "$ref": "../enum/Abwicklungsmodell.schema.json"
+    },
+    "vorjahresverbrauch": {
+      "$ref": "../com/Menge.schema.json"
+    },
+    "lastprofile": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Lastprofil.schema.json"
+      }
+    },
+    "lastprofileBilanzierungsbeteiligter": {
+      "type": "array",
+      "items": {
+        "$ref": "../com/Lastprofil.schema.json"
+      }
+    },
+    "detailsPrognosegrundlage": {
+      "type": "array",
+      "items": {
+        "$ref": "../enum/Profiltyp.schema.json"
+      }
+    }
+  },
+  "required": [
+    "boTyp",
+    "versionStruktur"
+  ]
+}

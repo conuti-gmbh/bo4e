@@ -1,0 +1,3 @@
+## aufgabe Type
+
+`number`

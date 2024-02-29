@@ -1,0 +1,3 @@
+## abrechnungBlindarbeit Type
+
+`boolean`

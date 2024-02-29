@@ -1,0 +1,3 @@
+## grund Type
+
+`string[]`

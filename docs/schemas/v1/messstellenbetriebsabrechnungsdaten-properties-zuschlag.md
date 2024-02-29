@@ -1,0 +1,3 @@
+## zuschlag Type
+
+`number`

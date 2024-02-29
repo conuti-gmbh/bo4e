@@ -1,0 +1,3 @@
+## netzlokationsId Type
+
+`string`

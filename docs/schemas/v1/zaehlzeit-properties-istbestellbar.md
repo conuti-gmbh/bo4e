@@ -1,0 +1,3 @@
+## istBestellbar Type
+
+`boolean`

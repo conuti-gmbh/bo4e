@@ -1,0 +1,3 @@
+## keinKonfigurationsprodukt Type
+
+`boolean`
